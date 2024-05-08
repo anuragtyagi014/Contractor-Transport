@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The header for our theme.
  *
@@ -11,19 +12,19 @@
 
 ?>
 <?php
-	/**
-	 * Hook - business_club_action_doctype.
-	 *
-	 * @hooked business_club_doctype - 10
-	 */
-	do_action( 'business_club_action_doctype' );
+/**
+ * Hook - business_club_action_doctype.
+ *
+ * @hooked business_club_doctype - 10
+ */
+do_action('business_club_action_doctype');
 ?>
+
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
@@ -35,13 +36,13 @@
 
 <head>
     <?php
-	/**
-	 * Hook - business_club_action_head.
-	 *
-	 * @hooked business_club_head - 10
-	 */
-	do_action( 'business_club_action_head' );
-	?>
+    /**
+     * Hook - business_club_action_head.
+     *
+     * @hooked business_club_head - 10
+     */
+    do_action('business_club_action_head');
+    ?>
 
     <?php wp_head(); ?>
     <!-- Custom css -->
@@ -96,7 +97,7 @@
             display: block;
         }
 
-        .theme__container{
+        .theme__container {
             width: 100%;
             padding-left: 15px;
             padding-right: 15px;
@@ -1024,8 +1025,7 @@
                                 </ul>
                             </li>
                             <li><a href="javscript:void(0);">News</a></li>
-                            <li class="menu__has-children"><a href="javscript:void(0);">Services <i
-                                        class="fas fa-angle-down"></i></a>
+                            <li class="menu__has-children"><a href="javscript:void(0);">Services <i class="fas fa-angle-down"></i></a>
 
                                 <ul>
                                     <li><a href="javascript:void(0);">Hot Shot Services</a></li>
@@ -1043,8 +1043,7 @@
 
                     <div class="theme__header-actions">
                         <button class="theme__btn theme__btn-primary header-get-a-quote">Get A Quote</button>
-                        <button class="theme__btn theme__btn-primary mobile__menu-trigger"><i
-                                class="fas fa-bars"></i></button>
+                        <button class="theme__btn theme__btn-primary mobile__menu-trigger"><i class="fas fa-bars"></i></button>
                     </div>
 
                 </div>
