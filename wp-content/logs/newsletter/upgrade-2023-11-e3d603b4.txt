@@ -1,0 +1,33 @@
+29-11-2023 08:09:01 - INFO  - 8.0.4 - 58.6 MB/768 MB - wp-admin > Start upgrade from 0.0.0
+29-11-2023 08:09:01 - INFO  - 8.0.4 - 58.6 MB/768 MB - wp-admin > Array
+(
+    [`dmm_newsletter_emails`] => Created table `dmm_newsletter_emails`
+)
+
+29-11-2023 08:09:01 - INFO  - 8.0.4 - 58.6 MB/768 MB - wp-admin > Array
+(
+    [`dmm_newsletter_sent`] => Created table `dmm_newsletter_sent`
+)
+
+29-11-2023 08:09:01 - INFO  - 8.0.4 - 58.6 MB/768 MB - wp-admin > Array
+(
+    [`dmm_newsletter`] => Created table `dmm_newsletter`
+)
+
+29-11-2023 08:09:01 - INFO  - 8.0.4 - 58.6 MB/768 MB - wp-admin > Array
+(
+    [`dmm_newsletter_user_logs`] => Created table `dmm_newsletter_user_logs`
+)
+
+29-11-2023 08:09:01 - INFO  - 8.0.4 - 58.6 MB/768 MB - wp-admin > Array
+(
+    [`dmm_newsletter_user_meta`] => Created table `dmm_newsletter_user_meta`
+)
+
+29-11-2023 08:09:01 - INFO  - 8.0.4 - 58.6 MB/768 MB - wp-admin > Array
+(
+    [`dmm_newsletter_stats`] => Created table `dmm_newsletter_stats`
+)
+
+29-11-2023 08:09:01 - INFO  - 8.0.4 - 58.6 MB/768 MB - wp-admin > Backing up options of 0.0.0
+29-11-2023 08:09:01 - INFO  - 8.0.4 - 58.6 MB/768 MB - wp-admin > End

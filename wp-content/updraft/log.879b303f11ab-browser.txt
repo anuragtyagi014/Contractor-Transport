@@ -1,0 +1,484 @@
+0000.013 (R) [notice] Looking for db archive: file name: backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-db.gz
+0000.013 (R) [notice] Archive is expected to be size: 5700.1 KB: OK
+0000.014 (R) [notice] Looking for plugins archive: file name: backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-plugins.zip
+0000.014 (R) [notice] Archive is expected to be size: 77035.9 KB: OK
+0000.014 (R) [notice] Looking for themes archive: file name: backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-themes.zip
+0000.015 (R) [notice] Archive is expected to be size: 3715.7 KB: OK
+0000.015 (R) [notice] Looking for uploads archive: file name: backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-uploads.zip
+0000.015 (R) [notice] Archive is expected to be size: 110190.3 KB: OK
+0000.015 (R) [notice] Looking for others archive: file name: backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-others.zip
+0000.015 (R) [notice] Archive is expected to be size: 1.3 KB: OK
+0000.019 (R) [notice] Unpacking backup... (backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-db.gz, 5.6 Mb)
+0000.030 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.079 (R) [notice] Enabling Maintenance mode&#8230;
+0000.088 (R) [notice] Backup of: http://www.cxrtrans.com
+0000.088 (R) [notice] Site home: https://www.cxrtrans.com
+0000.088 (R) [notice] Content URL: http://www.cxrtrans.com/wp-content
+0000.088 (R) [notice] Uploads URL: https://www.cxrtrans.com/wp-content/uploads
+0000.088 (R) [notice] Old table prefix: wp_
+0000.088 (R) [notice] Old ABSPATH: /home/a16520705/public_html/
+0000.088 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.089 (R) [notice] Site information: multisite = 0
+0000.089 (R) [notice] Site information: sql_mode = NO_ENGINE_SUBSTITUTION
+0000.090 (R) [notice] New table prefix: 1k_
+0000.094 (R) [notice] Processing table (MyISAM):  wp_options - will restore as: 1k_options
+0000.146 (R) [notice] Atomic restore: dropping original table (dmm_options)
+0000.149 (R) [notice] Atomic restore: renaming new table (1k_options) to final table name (dmm_options)
+0000.223 (R) [notice] Table prefix has changed: changing option table field(s) accordingly: OK
+0000.223 (R) [notice] Uploads path (/home/a16520705/public_html/wp-content/uploads) does not exist - resetting ()
+0000.226 (R) [notice] Search and replacing table: dmm_options: rows: 547
+0000.277 (R) [notice] Processing table (MyISAM):  wp_users - will restore as: 1k_users
+0000.291 (R) [notice] Atomic restore: dropping original table (dmm_users)
+0000.293 (R) [notice] Atomic restore: renaming new table (1k_users) to final table name (dmm_users)
+0000.294 (R) [notice] Search and replacing table: dmm_users: rows: 1
+0000.295 (R) [notice] Processing table (MyISAM):  wp_usermeta - will restore as: 1k_usermeta
+0000.304 (R) [notice] Atomic restore: dropping original table (dmm_usermeta)
+0000.305 (R) [notice] Atomic restore: renaming new table (1k_usermeta) to final table name (dmm_usermeta)
+0000.307 (R) [notice] Table prefix has changed: changing usermeta table field(s) accordingly: OK
+0000.307 (R) [notice] Search and replacing table: dmm_usermeta: rows: 53
+0000.309 (R) [notice] Processing table (MyISAM):  wp_actionscheduler_actions - will restore as: 1k_actionscheduler_actions
+0000.319 (R) [notice] Atomic restore: dropping original table (dmm_actionscheduler_actions)
+0000.321 (R) [notice] Atomic restore: renaming new table (1k_actionscheduler_actions) to final table name (dmm_actionscheduler_actions)
+0000.322 (R) [notice] Search and replacing table: dmm_actionscheduler_actions: rows: 6
+0000.323 (R) [notice] Processing table (MyISAM):  wp_actionscheduler_claims - will restore as: 1k_actionscheduler_claims
+0000.331 (R) [notice] Atomic restore: dropping original table (dmm_actionscheduler_claims)
+0000.332 (R) [notice] Atomic restore: renaming new table (1k_actionscheduler_claims) to final table name (dmm_actionscheduler_claims)
+0000.334 (R) [notice] Search and replacing table: dmm_actionscheduler_claims: rows: 0
+0000.334 (R) [notice] Processing table (MyISAM):  wp_actionscheduler_groups - will restore as: 1k_actionscheduler_groups
+0000.344 (R) [notice] Atomic restore: dropping original table (dmm_actionscheduler_groups)
+0000.345 (R) [notice] Atomic restore: renaming new table (1k_actionscheduler_groups) to final table name (dmm_actionscheduler_groups)
+0000.347 (R) [notice] Search and replacing table: dmm_actionscheduler_groups: rows: 2
+0000.347 (R) [notice] Processing table (MyISAM):  wp_actionscheduler_logs - will restore as: 1k_actionscheduler_logs
+0001.362 (R) [notice] Database queries processed: 50 in 1.33 seconds
+0001.827 (R) [notice] Atomic restore: dropping original table (dmm_actionscheduler_logs)
+0001.828 (R) [notice] Atomic restore: renaming new table (1k_actionscheduler_logs) to final table name (dmm_actionscheduler_logs)
+0001.829 (R) [notice] Search and replacing table: dmm_actionscheduler_logs: rows: 206165
+0001.885 (R) [notice] Searching and replacing reached row: 5000
+0001.948 (R) [notice] Searching and replacing reached row: 10000
+0002.004 (R) [notice] Searching and replacing reached row: 15000
+0002.061 (R) [notice] Searching and replacing reached row: 20000
+0002.120 (R) [notice] Searching and replacing reached row: 25000
+0002.179 (R) [notice] Searching and replacing reached row: 30000
+0002.239 (R) [notice] Searching and replacing reached row: 35000
+0002.299 (R) [notice] Searching and replacing reached row: 40000
+0002.360 (R) [notice] Searching and replacing reached row: 45000
+0002.427 (R) [notice] Searching and replacing reached row: 50000
+0002.495 (R) [notice] Searching and replacing reached row: 55000
+0002.565 (R) [notice] Searching and replacing reached row: 60000
+0002.630 (R) [notice] Searching and replacing reached row: 65000
+0002.698 (R) [notice] Searching and replacing reached row: 70000
+0002.796 (R) [notice] Searching and replacing reached row: 75000
+0002.862 (R) [notice] Searching and replacing reached row: 80000
+0002.929 (R) [notice] Searching and replacing reached row: 85000
+0002.996 (R) [notice] Searching and replacing reached row: 90000
+0003.063 (R) [notice] Searching and replacing reached row: 95000
+0003.131 (R) [notice] Searching and replacing reached row: 100000
+0003.201 (R) [notice] Searching and replacing reached row: 105000
+0003.272 (R) [notice] Searching and replacing reached row: 110000
+0003.346 (R) [notice] Searching and replacing reached row: 115000
+0003.437 (R) [notice] Searching and replacing reached row: 120000
+0003.522 (R) [notice] Searching and replacing reached row: 125000
+0003.607 (R) [notice] Searching and replacing reached row: 130000
+0003.696 (R) [notice] Searching and replacing reached row: 135000
+0003.771 (R) [notice] Searching and replacing reached row: 140000
+0003.845 (R) [notice] Searching and replacing reached row: 145000
+0003.926 (R) [notice] Searching and replacing reached row: 150000
+0004.001 (R) [notice] Searching and replacing reached row: 155000
+0004.090 (R) [notice] Searching and replacing reached row: 160000
+0004.167 (R) [notice] Searching and replacing reached row: 165000
+0004.244 (R) [notice] Searching and replacing reached row: 170000
+0004.341 (R) [notice] Searching and replacing reached row: 175000
+0004.432 (R) [notice] Searching and replacing reached row: 180000
+0004.523 (R) [notice] Searching and replacing reached row: 185000
+0004.602 (R) [notice] Searching and replacing reached row: 190000
+0004.696 (R) [notice] Searching and replacing reached row: 195000
+0004.787 (R) [notice] Searching and replacing reached row: 200000
+0004.888 (R) [notice] Searching and replacing reached row: 205000
+0004.953 (R) [notice] Processing table (MyISAM):  wp_commentmeta - will restore as: 1k_commentmeta
+0004.963 (R) [notice] Atomic restore: dropping original table (dmm_commentmeta)
+0004.964 (R) [notice] Atomic restore: renaming new table (1k_commentmeta) to final table name (dmm_commentmeta)
+0004.966 (R) [notice] Search and replacing table: dmm_commentmeta: rows: 0
+0004.966 (R) [notice] Processing table (MyISAM):  wp_comments - will restore as: 1k_comments
+0004.974 (R) [notice] Atomic restore: dropping original table (dmm_comments)
+0004.975 (R) [notice] Atomic restore: renaming new table (1k_comments) to final table name (dmm_comments)
+0004.976 (R) [notice] Search and replacing table: dmm_comments: rows: 1
+0004.977 (R) [notice] Processing table (MyISAM):  wp_links - will restore as: 1k_links
+0004.984 (R) [notice] Atomic restore: dropping original table (dmm_links)
+0004.985 (R) [notice] Atomic restore: renaming new table (1k_links) to final table name (dmm_links)
+0004.986 (R) [notice] Search and replacing table: dmm_links: rows: 7
+0004.987 (R) [notice] Processing table (MyISAM):  wp_postmeta - will restore as: 1k_postmeta
+0005.087 (R) [notice] Atomic restore: dropping original table (dmm_postmeta)
+0005.088 (R) [notice] Atomic restore: renaming new table (1k_postmeta) to final table name (dmm_postmeta)
+0005.093 (R) [notice] Search and replacing table: dmm_postmeta: rows: 53
+0005.117 (R) [notice] Processing table (MyISAM):  wp_posts - will restore as: 1k_posts
+0005.216 (R) [notice] Atomic restore: dropping original table (dmm_posts)
+0005.217 (R) [notice] Atomic restore: renaming new table (1k_posts) to final table name (dmm_posts)
+0005.218 (R) [notice] Search and replacing table: dmm_posts: rows: 754
+0005.352 (R) [notice] Processing table (MyISAM):  wp_term_relationships - will restore as: 1k_term_relationships
+0005.361 (R) [notice] Atomic restore: dropping original table (dmm_term_relationships)
+0005.362 (R) [notice] Atomic restore: renaming new table (1k_term_relationships) to final table name (dmm_term_relationships)
+0005.362 (R) [notice] Skipping this table: data in this table (dmm_term_relationships) should not be search/replaced
+0005.362 (R) [notice] Processing table (MyISAM):  wp_term_taxonomy - will restore as: 1k_term_taxonomy
+0005.370 (R) [notice] Atomic restore: dropping original table (dmm_term_taxonomy)
+0005.370 (R) [notice] Atomic restore: renaming new table (1k_term_taxonomy) to final table name (dmm_term_taxonomy)
+0005.372 (R) [notice] Search and replacing table: dmm_term_taxonomy: rows: 16
+0005.372 (R) [notice] Processing table (MyISAM):  wp_termmeta - will restore as: 1k_termmeta
+0005.378 (R) [notice] Atomic restore: dropping original table (dmm_termmeta)
+0005.379 (R) [notice] Atomic restore: renaming new table (1k_termmeta) to final table name (dmm_termmeta)
+0005.381 (R) [notice] Search and replacing table: dmm_termmeta: rows: 0
+0005.381 (R) [notice] Processing table (MyISAM):  wp_terms - will restore as: 1k_terms
+0005.388 (R) [notice] Atomic restore: dropping original table (dmm_terms)
+0005.388 (R) [notice] Atomic restore: renaming new table (1k_terms) to final table name (dmm_terms)
+0005.389 (R) [notice] Search and replacing table: dmm_terms: rows: 16
+0005.390 (R) [notice] Processing table (InnoDB):  wp_aioseo_cache - will restore as: 1k_aioseo_cache
+0005.417 (R) [notice] Atomic restore: dropping original table (dmm_aioseo_cache)
+0005.429 (R) [notice] Atomic restore: renaming new table (1k_aioseo_cache) to final table name (dmm_aioseo_cache)
+0005.432 (R) [notice] Search and replacing table: dmm_aioseo_cache: rows: 7
+0005.438 (R) [notice] Processing table (MyISAM):  wp_aioseo_notifications - will restore as: 1k_aioseo_notifications
+0005.451 (R) [notice] Atomic restore: dropping original table (dmm_aioseo_notifications)
+0005.453 (R) [notice] Atomic restore: renaming new table (1k_aioseo_notifications) to final table name (dmm_aioseo_notifications)
+0005.454 (R) [notice] Search and replacing table: dmm_aioseo_notifications: rows: 44
+0005.458 (R) [notice] Processing table (MyISAM):  wp_aioseo_posts - will restore as: 1k_aioseo_posts
+0005.477 (R) [notice] Database queries processed: 100 in 5.44 seconds
+0005.477 (R) [notice] Atomic restore: dropping original table (dmm_aioseo_posts)
+0005.478 (R) [notice] Atomic restore: renaming new table (1k_aioseo_posts) to final table name (dmm_aioseo_posts)
+0005.480 (R) [notice] Search and replacing table: dmm_aioseo_posts: rows: 294
+0005.517 (R) [notice] Processing table (MyISAM):  wp_gmp_icons - will restore as: 1k_gmp_icons
+0005.517 (R) [notice] Requested table character set (utf8mb3) is not present - changing to utf8.
+0005.526 (R) [notice] Atomic restore: dropping original table (dmm_gmp_icons)
+0005.527 (R) [notice] Atomic restore: renaming new table (1k_gmp_icons) to final table name (dmm_gmp_icons)
+0005.528 (R) [notice] Search and replacing table: dmm_gmp_icons: rows: 48
+0005.530 (R) [notice] Processing table (MyISAM):  wp_gmp_maps - will restore as: 1k_gmp_maps
+0005.530 (R) [notice] Requested table character set (utf8mb3) is not present - changing to utf8.
+0005.538 (R) [notice] Atomic restore: dropping original table (dmm_gmp_maps)
+0005.539 (R) [notice] Atomic restore: renaming new table (1k_gmp_maps) to final table name (dmm_gmp_maps)
+0005.540 (R) [notice] Search and replacing table: dmm_gmp_maps: rows: 3
+0005.542 (R) [notice] Processing table (MyISAM):  wp_gmp_marker_groups - will restore as: 1k_gmp_marker_groups
+0005.542 (R) [notice] Requested table character set (utf8mb3) is not present - changing to utf8.
+0005.550 (R) [notice] Atomic restore: dropping original table (dmm_gmp_marker_groups)
+0005.550 (R) [notice] Atomic restore: renaming new table (1k_gmp_marker_groups) to final table name (dmm_gmp_marker_groups)
+0005.552 (R) [notice] Search and replacing table: dmm_gmp_marker_groups: rows: 0
+0005.552 (R) [notice] Processing table (MyISAM):  wp_gmp_marker_groups_relation - will restore as: 1k_gmp_marker_groups_relation
+0005.552 (R) [notice] Requested table character set (utf8mb3) is not present - changing to utf8.
+0005.559 (R) [notice] Atomic restore: dropping original table (dmm_gmp_marker_groups_relation)
+0005.560 (R) [notice] Atomic restore: renaming new table (1k_gmp_marker_groups_relation) to final table name (dmm_gmp_marker_groups_relation)
+0005.561 (R) [notice] Search and replacing table: dmm_gmp_marker_groups_relation: rows: 13
+0005.562 (R) [notice] Processing table (MyISAM):  wp_gmp_markers - will restore as: 1k_gmp_markers
+0005.562 (R) [notice] Requested table character set (utf8mb3) is not present - changing to utf8.
+0005.569 (R) [notice] Atomic restore: dropping original table (dmm_gmp_markers)
+0005.570 (R) [notice] Atomic restore: renaming new table (1k_gmp_markers) to final table name (dmm_gmp_markers)
+0005.572 (R) [notice] Search and replacing table: dmm_gmp_markers: rows: 15
+0005.573 (R) [notice] Processing table (MyISAM):  wp_gmp_membership_presets - will restore as: 1k_gmp_membership_presets
+0005.573 (R) [notice] Requested table character set (utf8mb3) is not present - changing to utf8.
+0005.580 (R) [notice] Atomic restore: dropping original table (dmm_gmp_membership_presets)
+0005.581 (R) [notice] Atomic restore: renaming new table (1k_gmp_membership_presets) to final table name (dmm_gmp_membership_presets)
+0005.583 (R) [notice] Search and replacing table: dmm_gmp_membership_presets: rows: 2
+0005.583 (R) [notice] Processing table (MyISAM):  wp_gmp_modules - will restore as: 1k_gmp_modules
+0005.583 (R) [notice] Requested table character set (utf8mb3) is not present - changing to utf8.
+0005.591 (R) [notice] Atomic restore: dropping original table (dmm_gmp_modules)
+0005.592 (R) [notice] Atomic restore: renaming new table (1k_gmp_modules) to final table name (dmm_gmp_modules)
+0005.593 (R) [notice] Search and replacing table: dmm_gmp_modules: rows: 14
+0005.594 (R) [notice] Processing table (MyISAM):  wp_gmp_modules_type - will restore as: 1k_gmp_modules_type
+0005.594 (R) [notice] Requested table character set (utf8mb3) is not present - changing to utf8.
+0005.601 (R) [notice] Atomic restore: dropping original table (dmm_gmp_modules_type)
+0005.602 (R) [notice] Atomic restore: renaming new table (1k_gmp_modules_type) to final table name (dmm_gmp_modules_type)
+0005.603 (R) [notice] Search and replacing table: dmm_gmp_modules_type: rows: 4
+0005.603 (R) [notice] Processing table (MyISAM):  wp_gmp_options - will restore as: 1k_gmp_options
+0005.603 (R) [notice] Requested table character set (utf8mb3) is not present - changing to utf8.
+0005.611 (R) [notice] Atomic restore: dropping original table (dmm_gmp_options)
+0005.612 (R) [notice] Atomic restore: renaming new table (1k_gmp_options) to final table name (dmm_gmp_options)
+0005.614 (R) [notice] Search and replacing table: dmm_gmp_options: rows: 2
+0005.614 (R) [notice] Processing table (MyISAM):  wp_gmp_options_categories - will restore as: 1k_gmp_options_categories
+0005.614 (R) [notice] Requested table character set (utf8mb3) is not present - changing to utf8.
+0005.622 (R) [notice] Atomic restore: dropping original table (dmm_gmp_options_categories)
+0005.624 (R) [notice] Atomic restore: renaming new table (1k_gmp_options_categories) to final table name (dmm_gmp_options_categories)
+0005.625 (R) [notice] Search and replacing table: dmm_gmp_options_categories: rows: 4
+0005.625 (R) [notice] Processing table (MyISAM):  wp_gmp_usage_stat - will restore as: 1k_gmp_usage_stat
+0005.626 (R) [notice] Requested table character set (utf8mb3) is not present - changing to utf8.
+0005.632 (R) [notice] Atomic restore: dropping original table (dmm_gmp_usage_stat)
+0005.633 (R) [notice] Atomic restore: renaming new table (1k_gmp_usage_stat) to final table name (dmm_gmp_usage_stat)
+0005.635 (R) [notice] Search and replacing table: dmm_gmp_usage_stat: rows: 1
+0005.635 (R) [notice] Processing table (InnoDB):  wp_nf3_action_meta - will restore as: 1k_nf3_action_meta
+0005.652 (R) [notice] Atomic restore: dropping original table (dmm_nf3_action_meta)
+0005.662 (R) [notice] Atomic restore: renaming new table (1k_nf3_action_meta) to final table name (dmm_nf3_action_meta)
+0005.667 (R) [notice] Search and replacing table: dmm_nf3_action_meta: rows: 142
+0005.669 (R) [notice] Processing table (InnoDB):  wp_nf3_actions - will restore as: 1k_nf3_actions
+0005.682 (R) [notice] Atomic restore: dropping original table (dmm_nf3_actions)
+0005.693 (R) [notice] Atomic restore: renaming new table (1k_nf3_actions) to final table name (dmm_nf3_actions)
+0005.697 (R) [notice] Search and replacing table: dmm_nf3_actions: rows: 6
+0005.698 (R) [notice] Processing table (MyISAM):  wp_nf3_chunks - will restore as: 1k_nf3_chunks
+0005.704 (R) [notice] Atomic restore: dropping original table (dmm_nf3_chunks)
+0005.705 (R) [notice] Atomic restore: renaming new table (1k_nf3_chunks) to final table name (dmm_nf3_chunks)
+0005.707 (R) [notice] Search and replacing table: dmm_nf3_chunks: rows: 0
+0005.707 (R) [notice] Processing table (InnoDB):  wp_nf3_field_meta - will restore as: 1k_nf3_field_meta
+0005.723 (R) [notice] Atomic restore: dropping original table (dmm_nf3_field_meta)
+0005.733 (R) [notice] Atomic restore: renaming new table (1k_nf3_field_meta) to final table name (dmm_nf3_field_meta)
+0005.737 (R) [notice] Search and replacing table: dmm_nf3_field_meta: rows: 213
+0005.740 (R) [notice] Processing table (InnoDB):  wp_nf3_fields - will restore as: 1k_nf3_fields
+0005.755 (R) [notice] Atomic restore: dropping original table (dmm_nf3_fields)
+0005.766 (R) [notice] Atomic restore: renaming new table (1k_nf3_fields) to final table name (dmm_nf3_fields)
+0005.770 (R) [notice] Search and replacing table: dmm_nf3_fields: rows: 10
+0005.770 (R) [notice] Processing table (InnoDB):  wp_nf3_form_meta - will restore as: 1k_nf3_form_meta
+0005.786 (R) [notice] Atomic restore: dropping original table (dmm_nf3_form_meta)
+0005.797 (R) [notice] Database queries processed: 150 in 5.76 seconds
+0005.797 (R) [notice] Atomic restore: renaming new table (1k_nf3_form_meta) to final table name (dmm_nf3_form_meta)
+0005.801 (R) [notice] Search and replacing table: dmm_nf3_form_meta: rows: 68
+0005.803 (R) [notice] Processing table (InnoDB):  wp_nf3_forms - will restore as: 1k_nf3_forms
+0005.818 (R) [notice] Atomic restore: dropping original table (dmm_nf3_forms)
+0005.830 (R) [notice] Atomic restore: renaming new table (1k_nf3_forms) to final table name (dmm_nf3_forms)
+0005.834 (R) [notice] Search and replacing table: dmm_nf3_forms: rows: 2
+0005.834 (R) [notice] Processing table (InnoDB):  wp_nf3_object_meta - will restore as: 1k_nf3_object_meta
+0005.847 (R) [notice] Atomic restore: dropping original table (dmm_nf3_object_meta)
+0005.857 (R) [notice] Atomic restore: renaming new table (1k_nf3_object_meta) to final table name (dmm_nf3_object_meta)
+0005.861 (R) [notice] Search and replacing table: dmm_nf3_object_meta: rows: 0
+0005.861 (R) [notice] Processing table (InnoDB):  wp_nf3_objects - will restore as: 1k_nf3_objects
+0005.874 (R) [notice] Atomic restore: dropping original table (dmm_nf3_objects)
+0005.884 (R) [notice] Atomic restore: renaming new table (1k_nf3_objects) to final table name (dmm_nf3_objects)
+0005.888 (R) [notice] Search and replacing table: dmm_nf3_objects: rows: 0
+0005.888 (R) [notice] Processing table (InnoDB):  wp_nf3_relationships - will restore as: 1k_nf3_relationships
+0005.901 (R) [notice] Atomic restore: dropping original table (dmm_nf3_relationships)
+0005.911 (R) [notice] Atomic restore: renaming new table (1k_nf3_relationships) to final table name (dmm_nf3_relationships)
+0005.915 (R) [notice] Search and replacing table: dmm_nf3_relationships: rows: 0
+0005.916 (R) [notice] Processing table (MyISAM):  wp_nf3_upgrades - will restore as: 1k_nf3_upgrades
+0005.923 (R) [notice] Atomic restore: dropping original table (dmm_nf3_upgrades)
+0005.924 (R) [notice] Atomic restore: renaming new table (1k_nf3_upgrades) to final table name (dmm_nf3_upgrades)
+0005.925 (R) [notice] Search and replacing table: dmm_nf3_upgrades: rows: 2
+0005.927 (R) [notice] Processing table (MyISAM):  wp_smush_dir_images - will restore as: 1k_smush_dir_images
+0005.935 (R) [notice] Atomic restore: dropping original table (dmm_smush_dir_images)
+0005.936 (R) [notice] Atomic restore: renaming new table (1k_smush_dir_images) to final table name (dmm_smush_dir_images)
+0005.938 (R) [notice] Search and replacing table: dmm_smush_dir_images: rows: 0
+0005.938 (R) [notice] Processing table (MyISAM):  wp_statistics_exclusions - will restore as: 1k_statistics_exclusions
+0005.938 (R) [notice] Requested table collation (utf8mb3_general_ci) is not present - changing to utf8_general_ci.
+0005.945 (R) [notice] Atomic restore: dropping original table (dmm_statistics_exclusions)
+0005.946 (R) [notice] Atomic restore: renaming new table (1k_statistics_exclusions) to final table name (dmm_statistics_exclusions)
+0005.948 (R) [notice] Search and replacing table: dmm_statistics_exclusions: rows: 0
+0005.948 (R) [notice] Processing table (MyISAM):  wp_statistics_historical - will restore as: 1k_statistics_historical
+0005.948 (R) [notice] Requested table collation (utf8mb3_general_ci) is not present - changing to utf8_general_ci.
+0005.955 (R) [notice] Atomic restore: dropping original table (dmm_statistics_historical)
+0005.956 (R) [notice] Atomic restore: renaming new table (1k_statistics_historical) to final table name (dmm_statistics_historical)
+0005.957 (R) [notice] Search and replacing table: dmm_statistics_historical: rows: 0
+0005.957 (R) [notice] Processing table (MyISAM):  wp_statistics_pages - will restore as: 1k_statistics_pages
+0005.957 (R) [notice] Requested table collation (utf8mb3_general_ci) is not present - changing to utf8_general_ci.
+0006.929 (R) [notice] Atomic restore: dropping original table (dmm_statistics_pages)
+0006.930 (R) [notice] Atomic restore: renaming new table (1k_statistics_pages) to final table name (dmm_statistics_pages)
+0006.932 (R) [notice] Search and replacing table: dmm_statistics_pages: rows: 38085
+0006.996 (R) [notice] Searching and replacing reached row: 5000
+0007.063 (R) [notice] Searching and replacing reached row: 10000
+0007.133 (R) [notice] Searching and replacing reached row: 15000
+0007.212 (R) [notice] Searching and replacing reached row: 20000
+0007.284 (R) [notice] Searching and replacing reached row: 25000
+0007.356 (R) [notice] Searching and replacing reached row: 30000
+0007.430 (R) [notice] Searching and replacing reached row: 35000
+0007.473 (R) [notice] Processing table (MyISAM):  wp_statistics_search - will restore as: 1k_statistics_search
+0007.473 (R) [notice] Requested table collation (utf8mb3_general_ci) is not present - changing to utf8_general_ci.
+0007.478 (R) [notice] Database queries processed: 200 in 7.45 seconds
+0008.131 (R) [notice] Atomic restore: dropping original table (dmm_statistics_search)
+0008.132 (R) [notice] Atomic restore: renaming new table (1k_statistics_search) to final table name (dmm_statistics_search)
+0008.133 (R) [notice] Search and replacing table: dmm_statistics_search: rows: 46640
+0008.231 (R) [notice] Searching and replacing reached row: 5000
+0008.293 (R) [notice] Searching and replacing reached row: 10000
+0008.358 (R) [notice] Searching and replacing reached row: 15000
+0008.425 (R) [notice] Searching and replacing reached row: 20000
+0008.487 (R) [notice] Searching and replacing reached row: 25000
+0008.552 (R) [notice] Searching and replacing reached row: 30000
+0008.617 (R) [notice] Searching and replacing reached row: 35000
+0008.681 (R) [notice] Searching and replacing reached row: 40000
+0008.781 (R) [notice] Searching and replacing reached row: 45000
+0008.809 (R) [notice] Processing table (MyISAM):  wp_statistics_useronline - will restore as: 1k_statistics_useronline
+0008.809 (R) [notice] Requested table collation (utf8mb3_general_ci) is not present - changing to utf8_general_ci.
+0008.818 (R) [notice] Atomic restore: dropping original table (dmm_statistics_useronline)
+0008.819 (R) [notice] Atomic restore: renaming new table (1k_statistics_useronline) to final table name (dmm_statistics_useronline)
+0008.820 (R) [notice] Search and replacing table: dmm_statistics_useronline: rows: 0
+0008.820 (R) [notice] Processing table (MyISAM):  wp_statistics_visit - will restore as: 1k_statistics_visit
+0008.848 (R) [notice] Atomic restore: dropping original table (dmm_statistics_visit)
+0008.849 (R) [notice] Atomic restore: renaming new table (1k_statistics_visit) to final table name (dmm_statistics_visit)
+0008.850 (R) [notice] Search and replacing table: dmm_statistics_visit: rows: 2421
+0008.873 (R) [notice] Processing table (MyISAM):  wp_statistics_visitor - will restore as: 1k_statistics_visitor
+0008.873 (R) [notice] Requested table collation (utf8mb3_general_ci) is not present - changing to utf8_general_ci.
+0013.749 (R) [notice] Database queries processed: 250 in 13.72 seconds
+0017.549 (R) [notice] Atomic restore: dropping original table (dmm_statistics_visitor)
+0017.550 (R) [notice] Atomic restore: renaming new table (1k_statistics_visitor) to final table name (dmm_statistics_visitor)
+0017.552 (R) [notice] Search and replacing table: dmm_statistics_visitor: rows: 196081
+0018.284 (R) [notice] Searching and replacing reached row: 5000
+0018.822 (R) [notice] Searching and replacing reached row: 10000
+0019.416 (R) [notice] Searching and replacing reached row: 15000
+0020.177 (R) [notice] Searching and replacing reached row: 20000
+0020.818 (R) [notice] Searching and replacing reached row: 25000
+0021.403 (R) [notice] Searching and replacing reached row: 30000
+0021.976 (R) [notice] Searching and replacing reached row: 35000
+0022.585 (R) [notice] Searching and replacing reached row: 40000
+0023.188 (R) [notice] Searching and replacing reached row: 45000
+0023.800 (R) [notice] Searching and replacing reached row: 50000
+0024.526 (R) [notice] Searching and replacing reached row: 55000
+0025.207 (R) [notice] Searching and replacing reached row: 60000
+0025.811 (R) [notice] Searching and replacing reached row: 65000
+0026.635 (R) [notice] Searching and replacing reached row: 70000
+0027.317 (R) [notice] Searching and replacing reached row: 75000
+0028.108 (R) [notice] Searching and replacing reached row: 80000
+0028.936 (R) [notice] Searching and replacing reached row: 85000
+0029.705 (R) [notice] Searching and replacing reached row: 90000
+0030.493 (R) [notice] Searching and replacing reached row: 95000
+0031.231 (R) [notice] Searching and replacing reached row: 100000
+0032.039 (R) [notice] Searching and replacing reached row: 105000
+0032.784 (R) [notice] Searching and replacing reached row: 110000
+0033.517 (R) [notice] Searching and replacing reached row: 115000
+0034.378 (R) [notice] Searching and replacing reached row: 120000
+0035.163 (R) [notice] Searching and replacing reached row: 125000
+0035.955 (R) [notice] Searching and replacing reached row: 130000
+0036.727 (R) [notice] Searching and replacing reached row: 135000
+0037.572 (R) [notice] Searching and replacing reached row: 140000
+0038.308 (R) [notice] Searching and replacing reached row: 145000
+0038.999 (R) [notice] Searching and replacing reached row: 150000
+0039.700 (R) [notice] Searching and replacing reached row: 155000
+0041.180 (R) [notice] Searching and replacing reached row: 160000
+0042.025 (R) [notice] Searching and replacing reached row: 165000
+0042.900 (R) [notice] Searching and replacing reached row: 170000
+0043.743 (R) [notice] Searching and replacing reached row: 175000
+0044.442 (R) [notice] Searching and replacing reached row: 180000
+0045.122 (R) [notice] Searching and replacing reached row: 185000
+0045.860 (R) [notice] Searching and replacing reached row: 190000
+0046.650 (R) [notice] Searching and replacing reached row: 195000
+0046.872 (R) [notice] Processing table (MyISAM):  wp_statistics_visitor_relationships - will restore as: 1k_statistics_visitor_relationships
+0046.882 (R) [notice] Atomic restore: dropping original table (dmm_statistics_visitor_relationships)
+0046.883 (R) [notice] Atomic restore: renaming new table (1k_statistics_visitor_relationships) to final table name (dmm_statistics_visitor_relationships)
+0046.884 (R) [notice] Search and replacing table: dmm_statistics_visitor_relationships: rows: 0
+0046.884 (R) [notice] Processing table (InnoDB):  wp_wpsr_caches - will restore as: 1k_wpsr_caches
+0046.897 (R) [notice] Atomic restore: dropping original table (dmm_wpsr_caches)
+0046.908 (R) [notice] Atomic restore: renaming new table (1k_wpsr_caches) to final table name (dmm_wpsr_caches)
+0046.911 (R) [notice] Search and replacing table: dmm_wpsr_caches: rows: 0
+0046.911 (R) [notice] Processing table (InnoDB):  wp_wpsr_reviews - will restore as: 1k_wpsr_reviews
+0046.924 (R) [notice] Atomic restore: dropping original table (dmm_wpsr_reviews)
+0046.936 (R) [notice] Atomic restore: renaming new table (1k_wpsr_reviews) to final table name (dmm_wpsr_reviews)
+0046.940 (R) [notice] Search and replacing table: dmm_wpsr_reviews: rows: 0
+0046.940 (R) [notice] Processing table (MyISAM):  wp_yoast_indexable - will restore as: 1k_yoast_indexable
+0046.953 (R) [notice] Atomic restore: dropping original table (dmm_yoast_indexable)
+0046.954 (R) [notice] Atomic restore: renaming new table (1k_yoast_indexable) to final table name (dmm_yoast_indexable)
+0046.955 (R) [notice] Search and replacing table: dmm_yoast_indexable: rows: 82
+0046.973 (R) [notice] Processing table (MyISAM):  wp_yoast_indexable_hierarchy - will restore as: 1k_yoast_indexable_hierarchy
+0046.980 (R) [notice] Atomic restore: dropping original table (dmm_yoast_indexable_hierarchy)
+0046.981 (R) [notice] Atomic restore: renaming new table (1k_yoast_indexable_hierarchy) to final table name (dmm_yoast_indexable_hierarchy)
+0046.982 (R) [notice] Search and replacing table: dmm_yoast_indexable_hierarchy: rows: 0
+0046.982 (R) [notice] Processing table (MyISAM):  wp_yoast_migrations - will restore as: 1k_yoast_migrations
+0046.989 (R) [notice] Atomic restore: dropping original table (dmm_yoast_migrations)
+0046.990 (R) [notice] Atomic restore: renaming new table (1k_yoast_migrations) to final table name (dmm_yoast_migrations)
+0046.991 (R) [notice] Search and replacing table: dmm_yoast_migrations: rows: 18
+0046.991 (R) [notice] Processing table (MyISAM):  wp_yoast_primary_term - will restore as: 1k_yoast_primary_term
+0046.997 (R) [notice] Atomic restore: dropping original table (dmm_yoast_primary_term)
+0046.998 (R) [notice] Atomic restore: renaming new table (1k_yoast_primary_term) to final table name (dmm_yoast_primary_term)
+0046.999 (R) [notice] Search and replacing table: dmm_yoast_primary_term: rows: 0
+0046.999 (R) [notice] Processing table (MyISAM):  wp_yoast_seo_links - will restore as: 1k_yoast_seo_links
+0047.006 (R) [notice] Atomic restore: dropping original table (dmm_yoast_seo_links)
+0047.007 (R) [notice] Atomic restore: renaming new table (1k_yoast_seo_links) to final table name (dmm_yoast_seo_links)
+0047.008 (R) [notice] Search and replacing table: dmm_yoast_seo_links: rows: 0
+0047.008 (R) [notice] Processing table (MyISAM):  wp_yoast_seo_meta - will restore as: 1k_yoast_seo_meta
+0047.013 (R) [notice] Disabling Maintenance mode&#8230;
+0047.013 (R) [notice] Atomic restore: dropping original table (dmm_yoast_seo_meta)
+0047.014 (R) [notice] Atomic restore: renaming new table (1k_yoast_seo_meta) to final table name (dmm_yoast_seo_meta)
+0047.016 (R) [notice] Search and replacing table: dmm_yoast_seo_meta: rows: 1
+0047.016 (R) [notice] Finished: lines processed: 284 in 46.98 seconds
+0047.018 (R) [notice] Cleaning up rubbish...
+0047.019 (R) [notice] Database search and replace: replace http://www.cxrtrans.com in backup dump with https://devt27.sg-host.com
+0047.019 (R) [notice] Database search and replace: replace https://www.cxrtrans.com in backup dump with https://devt27.sg-host.com
+0047.019 (R) [notice] Database search and replace: replace http://cxrtrans.com in backup dump with https://devt27.sg-host.com
+0047.019 (R) [notice] Database search and replace: replace https://cxrtrans.com in backup dump with https://devt27.sg-host.com
+0047.019 (R) [notice] Database search and replace: replace /home/a16520705/public_html in backup dump with /home/customer/www/devt27.sg-host.com/public_html
+0047.020 (R) [notice] Search and replacing table: dmm_actionscheduler_actions: already done
+0047.020 (R) [notice] Search and replacing table: dmm_actionscheduler_claims: already done
+0047.020 (R) [notice] Search and replacing table: dmm_actionscheduler_groups: already done
+0047.020 (R) [notice] Search and replacing table: dmm_actionscheduler_logs: already done
+0047.020 (R) [notice] Search and replacing table: dmm_aioseo_cache: already done
+0047.020 (R) [notice] Search and replacing table: dmm_aioseo_notifications: already done
+0047.020 (R) [notice] Search and replacing table: dmm_aioseo_posts: already done
+0047.020 (R) [notice] Search and replacing table: dmm_commentmeta: already done
+0047.020 (R) [notice] Search and replacing table: dmm_comments: already done
+0047.020 (R) [notice] Search and replacing table: dmm_gmp_icons: already done
+0047.020 (R) [notice] Search and replacing table: dmm_gmp_maps: already done
+0047.020 (R) [notice] Search and replacing table: dmm_gmp_marker_groups: already done
+0047.020 (R) [notice] Search and replacing table: dmm_gmp_marker_groups_relation: already done
+0047.020 (R) [notice] Search and replacing table: dmm_gmp_markers: already done
+0047.020 (R) [notice] Search and replacing table: dmm_gmp_membership_presets: already done
+0047.020 (R) [notice] Search and replacing table: dmm_gmp_modules: already done
+0047.020 (R) [notice] Search and replacing table: dmm_gmp_modules_type: already done
+0047.020 (R) [notice] Search and replacing table: dmm_gmp_options: already done
+0047.020 (R) [notice] Search and replacing table: dmm_gmp_options_categories: already done
+0047.020 (R) [notice] Search and replacing table: dmm_gmp_usage_stat: already done
+0047.021 (R) [notice] Search and replacing table: dmm_links: already done
+0047.021 (R) [notice] Search and replacing table: dmm_nf3_action_meta: already done
+0047.021 (R) [notice] Search and replacing table: dmm_nf3_actions: already done
+0047.021 (R) [notice] Search and replacing table: dmm_nf3_chunks: already done
+0047.021 (R) [notice] Search and replacing table: dmm_nf3_field_meta: already done
+0047.021 (R) [notice] Search and replacing table: dmm_nf3_fields: already done
+0047.021 (R) [notice] Search and replacing table: dmm_nf3_form_meta: already done
+0047.021 (R) [notice] Search and replacing table: dmm_nf3_forms: already done
+0047.021 (R) [notice] Search and replacing table: dmm_nf3_object_meta: already done
+0047.021 (R) [notice] Search and replacing table: dmm_nf3_objects: already done
+0047.021 (R) [notice] Search and replacing table: dmm_nf3_relationships: already done
+0047.021 (R) [notice] Search and replacing table: dmm_nf3_upgrades: already done
+0047.021 (R) [notice] Search and replacing table: dmm_options: already done
+0047.021 (R) [notice] Search and replacing table: dmm_postmeta: already done
+0047.021 (R) [notice] Search and replacing table: dmm_posts: already done
+0047.021 (R) [notice] Search and replacing table: dmm_smush_dir_images: already done
+0047.021 (R) [notice] Search and replacing table: dmm_statistics_exclusions: already done
+0047.021 (R) [notice] Search and replacing table: dmm_statistics_historical: already done
+0047.021 (R) [notice] Search and replacing table: dmm_statistics_pages: already done
+0047.021 (R) [notice] Search and replacing table: dmm_statistics_search: already done
+0047.021 (R) [notice] Search and replacing table: dmm_statistics_useronline: already done
+0047.021 (R) [notice] Search and replacing table: dmm_statistics_visit: already done
+0047.021 (R) [notice] Search and replacing table: dmm_statistics_visitor: already done
+0047.021 (R) [notice] Search and replacing table: dmm_statistics_visitor_relationships: already done
+0047.021 (R) [notice] Search and replacing table: dmm_term_relationships: already done
+0047.021 (R) [notice] Search and replacing table: dmm_term_taxonomy: already done
+0047.021 (R) [notice] Search and replacing table: dmm_termmeta: already done
+0047.021 (R) [notice] Search and replacing table: dmm_terms: already done
+0047.021 (R) [notice] Search and replacing table: dmm_usermeta: already done
+0047.021 (R) [notice] Search and replacing table: dmm_users: already done
+0047.021 (R) [notice] Search and replacing table: dmm_wpsr_caches: already done
+0047.021 (R) [notice] Search and replacing table: dmm_wpsr_reviews: already done
+0047.021 (R) [notice] Search and replacing table: dmm_yoast_indexable: already done
+0047.021 (R) [notice] Search and replacing table: dmm_yoast_indexable_hierarchy: already done
+0047.022 (R) [notice] Search and replacing table: dmm_yoast_migrations: already done
+0047.022 (R) [notice] Search and replacing table: dmm_yoast_primary_term: already done
+0047.022 (R) [notice] Search and replacing table: dmm_yoast_seo_links: already done
+0047.022 (R) [notice] Search and replacing table: dmm_yoast_seo_meta: already done
+0047.024 (R) [notice] Search and replacing table: dmm_sgs_log_events: rows: 17
+0047.026 (R) [notice] Search and replacing table: dmm_sgs_log_visitors: rows: 8
+0047.027 (R) [notice] Tables examined: 59
+0047.027 (R) [notice] Rows examined: 491868
+0047.027 (R) [notice] Changes made: 160954
+0047.027 (R) [notice] SQL update commands run: 160814
+0047.027 (R) [notice] Errors: 0
+0047.027 (R) [notice] Time taken (seconds): 34.043
+0047.038 (R) [notice] Unpacking backup... (backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-plugins.zip, 75.2 MB)
+0047.467 (R) [notice] Unzip progress: 2543 out of 15335 files (57.6 KB, plugins/ml-slider/readme.txt)
+0047.635 (R) [notice] Unzip progress: 3544 out of 15335 files (16.3 MB, plugins/ml-slider/seasonal-discounts.json)
+0047.827 (R) [notice] Unzip progress: 4545 out of 15335 files (33.7 MB, plugins/ml-slider/lib/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.AllowedClasses.txt)
+0048.030 (R) [notice] Unzip progress: 5546 out of 15335 files (49.8 MB, plugins/beaver-builder-lite-version/css/jquery.bxslider.css)
+0048.263 (R) [notice] Unzip progress: 6547 out of 15335 files (70.8 MB, plugins/siteorigin-panels/js/styling.js)
+0048.447 (R) [notice] Unzip progress: 7548 out of 15335 files (85.3 MB, plugins/ninja-forms/lang/ninja-forms-pt_BR.mo)
+0048.661 (R) [notice] Unzip progress: 8549 out of 15335 files (103 MB, plugins/wp-fastest-cache/images/othercdn.png)
+0048.842 (R) [notice] Unzip progress: 9550 out of 15335 files (114.9 MB, plugins/wp-statistics/includes/vendor/maxmind-db/reader/composer.json)
+0049.064 (R) [notice] Unzip progress: 10551 out of 15335 files (135.1 MB, plugins/easy-facebook-likebox/instagram/frontend/assets/scss/framework/mixins/_caret.scss)
+0049.312 (R) [notice] Unzip progress: 11552 out of 15335 files (158.2 MB, plugins/really-simple-ssl/readme.txt)
+0049.450 (R) [notice] Unzip progress: 12553 out of 15335 files (166.1 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/composer.json)
+0049.752 (R) [notice] Unzip progress: 13554 out of 15335 files (177.6 MB, plugins/wordpress-seo/src/helpers/schema/html-helper.php)
+0049.953 (R) [notice] Unzip progress: 14555 out of 15335 files (191.2 MB, plugins/google-maps-easy/modules/gmap/js/frontend.gmap.js)
+0050.123 (R) [notice] Unzip progress: 15335 out of 15335 files (203.9 MB, plugins/all-in-one-seo-pack/dist/Lite/assets/css/connect-pro-Main-vue.css)
+0050.137 (R) [notice] Moving old data out of the way...
+0050.413 (R) [notice] Moving unpacked backup into place...
+0051.359 (R) [notice] Cleaning up rubbish...
+0051.360 (R) [notice] Disabled this plugin: WP Fastest Cache: re-activate it manually when you are ready.
+0051.367 (R) [notice] Unpacking backup... (backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-themes.zip, 3.6 MB)
+0051.437 (R) [notice] Unzip progress: 357 out of 357 files (5.6 MB, themes/twentytwentyone/classes/class-twenty-twenty-one-customize-notice-control.php)
+0051.438 (R) [notice] Moving old data out of the way...
+0051.459 (R) [notice] Moving unpacked backup into place...
+0051.480 (R) [notice] Cleaning up rubbish...
+0051.486 (R) [notice] Unpacking backup... (backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-uploads.zip, 107.6 MB)
+0051.992 (R) [notice] Unzip progress: 1002 out of 1111 files (87.3 MB, uploads/2020/06/53037346_976778952710461_2146124995225452544_n-150x150.jpg)
+0052.169 (R) [notice] Unzip progress: 1111 out of 1111 files (108.8 MB, uploads/2020/07/Traffic-Control-Services-pdf-1024x646.jpg)
+0052.171 (R) [notice] Moving old data out of the way...
+0052.172 (R) [notice] Moving unpacked backup into place...
+0052.239 (R) [notice] Cleaning up rubbish...
+0052.245 (R) [notice] Unpacking backup... (backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-others.zip, 0 MB)
+0052.249 (R) [notice] Unzip progress: 3 out of 3 files (5.1 KB, index.php)
+0052.250 (R) [notice] Cleaning up rubbish...
+0052.274 (R) [notice] Restore successful!

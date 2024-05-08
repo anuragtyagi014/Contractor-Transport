@@ -1,0 +1,456 @@
+0000.001 () Opened log file at time: Mon, 27 Nov 2023 16:01:56 +0000 on https://devt27.sg-host.com
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.13 WP: 6.4.1 PHP: 7.4.33 (apache2handler, Linux gtxm1253.siteground.biz 5.15.126-MCIclouder399 #399 SMP PREEMPT Wed Aug 16 16:53:17 EEST 2023 x86_64) MySQL: 5.7.39-42-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 35.7M | 14M) multisite: N openssl: OpenSSL 3.0.9 30 May 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 710408.1 MB
+0000.008 () Restore setup, now closing connection and starting restore over AJAX.
+0000.004 () Opened log file at time: Mon, 27 Nov 2023 16:01:57 +0000 on https://devt27.sg-host.com
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.13 WP: 6.4.1 PHP: 7.4.33 (apache2handler, Linux gtxm1253.siteground.biz 5.15.126-MCIclouder399 #399 SMP PREEMPT Wed Aug 16 16:53:17 EEST 2023 x86_64) MySQL: 5.7.39-42-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 34M | 36M) multisite: N openssl: OpenSSL 3.0.9 30 May 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 710404.8 MB
+0000.008 () Ensuring WP_Filesystem is setup for a restore
+0000.009 () WP_Filesystem is setup and ready for a restore
+0000.017 () Restore job started. Entities to restore: plugins, themes, uploads, db. Restore options: {"updraft_restorer_charset":"utf8","updraft_restorer_collate":"utf8_general_ci","collate_change_on_charset_selection_data":"{\"db_supported_collations\":{\"big5_chinese_ci\":{\"Collation\":\"big5_chinese_ci\",\"Charset\":\"big5\",\"Id\":\"1\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"big5_bin\":{\"Collation\":\"big5_bin\",\"Charset\":\"big5\",\"Id\":\"84\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"dec8_swedish_ci\":{\"Collation\":\"dec8_swedish_ci\",\"Charset\":\"dec8\",\"Id\":\"3\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"dec8_bin\":{\"Collation\":\"dec8_bin\",\"Charset\":\"dec8\",\"Id\":\"69\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp850_general_ci\":{\"Collation\":\"cp850_general_ci\",\"Charset\":\"cp850\",\"Id\":\"4\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp850_bin\":{\"Collation\":\"cp850_bin\",\"Charset\":\"cp850\",\"Id\":\"80\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"hp8_english_ci\":{\"Collation\":\"hp8_english_ci\",\"Charset\":\"hp8\",\"Id\":\"6\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"hp8_bin\":{\"Collation\":\"hp8_bin\",\"Charset\":\"hp8\",\"Id\":\"72\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"koi8r_general_ci\":{\"Collation\":\"koi8r_general_ci\",\"Charset\":\"koi8r\",\"Id\":\"7\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"koi8r_bin\":{\"Collation\":\"koi8r_bin\",\"Charset\":\"koi8r\",\"Id\":\"74\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin1_german1_ci\":{\"Collation\":\"latin1_german1_ci\",\"Charset\":\"latin1\",\"Id\":\"5\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin1_swedish_ci\":{\"Collation\":\"latin1_swedish_ci\",\"Charset\":\"latin1\",\"Id\":\"8\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin1_danish_ci\":{\"Collation\":\"latin1_danish_ci\",\"Charset\":\"latin1\",\"Id\":\"15\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin1_german2_ci\":{\"Collation\":\"latin1_german2_ci\",\"Charset\":\"latin1\",\"Id\":\"31\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"2\"},\"latin1_bin\":{\"Collation\":\"latin1_bin\",\"Charset\":\"latin1\",\"Id\":\"47\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin1_general_ci\":{\"Collation\":\"latin1_general_ci\",\"Charset\":\"latin1\",\"Id\":\"48\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin1_general_cs\":{\"Collation\":\"latin1_general_cs\",\"Charset\":\"latin1\",\"Id\":\"49\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin1_spanish_ci\":{\"Collation\":\"latin1_spanish_ci\",\"Charset\":\"latin1\",\"Id\":\"94\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin2_czech_cs\":{\"Collation\":\"latin2_czech_cs\",\"Charset\":\"latin2\",\"Id\":\"2\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"4\"},\"latin2_general_ci\":{\"Collation\":\"latin2_general_ci\",\"Charset\":\"latin2\",\"Id\":\"9\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin2_hungarian_ci\":{\"Collation\":\"latin2_hungarian_ci\",\"Charset\":\"latin2\",\"Id\":\"21\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin2_croatian_ci\":{\"Collation\":\"latin2_croatian_ci\",\"Charset\":\"latin2\",\"Id\":\"27\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin2_bin\":{\"Collation\":\"latin2_bin\",\"Charset\":\"latin2\",\"Id\":\"77\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"swe7_swedish_ci\":{\"Collation\":\"swe7_swedish_ci\",\"Charset\":\"swe7\",\"Id\":\"10\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"swe7_bin\":{\"Collation\":\"swe7_bin\",\"Charset\":\"swe7\",\"Id\":\"82\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"ascii_general_ci\":{\"Collation\":\"ascii_general_ci\",\"Charset\":\"ascii\",\"Id\":\"11\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"ascii_bin\":{\"Collation\":\"ascii_bin\",\"Charset\":\"ascii\",\"Id\":\"65\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"ujis_japanese_ci\":{\"Collation\":\"ujis_japanese_ci\",\"Charset\":\"ujis\",\"Id\":\"12\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"ujis_bin\":{\"Collation\":\"ujis_bin\",\"Charset\":\"ujis\",\"Id\":\"91\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"sjis_japanese_ci\":{\"Collation\":\"sjis_japanese_ci\",\"Charset\":\"sjis\",\"Id\":\"13\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"sjis_bin\":{\"Collation\":\"sjis_bin\",\"Charset\":\"sjis\",\"Id\":\"88\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"hebrew_general_ci\":{\"Collation\":\"hebrew_general_ci\",\"Charset\":\"hebrew\",\"Id\":\"16\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"hebrew_bin\":{\"Collation\":\"hebrew_bin\",\"Charset\":\"hebrew\",\"Id\":\"71\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"tis620_thai_ci\":{\"Collation\":\"tis620_thai_ci\",\"Charset\":\"tis620\",\"Id\":\"18\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"4\"},\"tis620_bin\":{\"Collation\":\"tis620_bin\",\"Charset\":\"tis620\",\"Id\":\"89\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"euckr_korean_ci\":{\"Collation\":\"euckr_korean_ci\",\"Charset\":\"euckr\",\"Id\":\"19\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"euckr_bin\":{\"Collation\":\"euckr_bin\",\"Charset\":\"euckr\",\"Id\":\"85\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"koi8u_general_ci\":{\"Collation\":\"koi8u_general_ci\",\"Charset\":\"koi8u\",\"Id\":\"22\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"koi8u_bin\":{\"Collation\":\"koi8u_bin\",\"Charset\":\"koi8u\",\"Id\":\"75\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"gb2312_chinese_ci\":{\"Collation\":\"gb2312_chinese_ci\",\"Charset\":\"gb2312\",\"Id\":\"24\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"gb2312_bin\":{\"Collation\":\"gb2312_bin\",\"Charset\":\"gb2312\",\"Id\":\"86\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"greek_general_ci\":{\"Collation\":\"greek_general_ci\",\"Charset\":\"greek\",\"Id\":\"25\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"greek_bin\":{\"Collation\":\"greek_bin\",\"Charset\":\"greek\",\"Id\":\"70\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp1250_general_ci\":{\"Collation\":\"cp1250_general_ci\",\"Charset\":\"cp1250\",\"Id\":\"26\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp1250_czech_cs\":{\"Collation\":\"cp1250_czech_cs\",\"Charset\":\"cp1250\",\"Id\":\"34\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"2\"},\"cp1250_croatian_ci\":{\"Collation\":\"cp1250_croatian_ci\",\"Charset\":\"cp1250\",\"Id\":\"44\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp1250_bin\":{\"Collation\":\"cp1250_bin\",\"Charset\":\"cp1250\",\"Id\":\"66\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp1250_polish_ci\":{\"Collation\":\"cp1250_polish_ci\",\"Charset\":\"cp1250\",\"Id\":\"99\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"gbk_chinese_ci\":{\"Collation\":\"gbk_chinese_ci\",\"Charset\":\"gbk\",\"Id\":\"28\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"gbk_bin\":{\"Collation\":\"gbk_bin\",\"Charset\":\"gbk\",\"Id\":\"87\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin5_turkish_ci\":{\"Collation\":\"latin5_turkish_ci\",\"Charset\":\"latin5\",\"Id\":\"30\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin5_bin\":{\"Collation\":\"latin5_bin\",\"Charset\":\"latin5\",\"Id\":\"78\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"armscii8_general_ci\":{\"Collation\":\"armscii8_general_ci\",\"Charset\":\"armscii8\",\"Id\":\"32\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"armscii8_bin\":{\"Collation\":\"armscii8_bin\",\"Charset\":\"armscii8\",\"Id\":\"64\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"utf8_general_ci\":{\"Collation\":\"utf8_general_ci\",\"Charset\":\"utf8\",\"Id\":\"33\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"utf8_bin\":{\"Collation\":\"utf8_bin\",\"Charset\":\"utf8\",\"Id\":\"83\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"utf8_unicode_ci\":{\"Collation\":\"utf8_unicode_ci\",\"Charset\":\"utf8\",\"Id\":\"192\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_icelandic_ci\":{\"Collation\":\"utf8_icelandic_ci\",\"Charset\":\"utf8\",\"Id\":\"193\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_latvian_ci\":{\"Collation\":\"utf8_latvian_ci\",\"Charset\":\"utf8\",\"Id\":\"194\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_romanian_ci\":{\"Collation\":\"utf8_romanian_ci\",\"Charset\":\"utf8\",\"Id\":\"195\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_slovenian_ci\":{\"Collation\":\"utf8_slovenian_ci\",\"Charset\":\"utf8\",\"Id\":\"196\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_polish_ci\":{\"Collation\":\"utf8_polish_ci\",\"Charset\":\"utf8\",\"Id\":\"197\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_estonian_ci\":{\"Collation\":\"utf8_estonian_ci\",\"Charset\":\"utf8\",\"Id\":\"198\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_spanish_ci\":{\"Collation\":\"utf8_spanish_ci\",\"Charset\":\"utf8\",\"Id\":\"199\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_swedish_ci\":{\"Collation\":\"utf8_swedish_ci\",\"Charset\":\"utf8\",\"Id\":\"200\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_turkish_ci\":{\"Collation\":\"utf8_turkish_ci\",\"Charset\":\"utf8\",\"Id\":\"201\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_czech_ci\":{\"Collation\":\"utf8_czech_ci\",\"Charset\":\"utf8\",\"Id\":\"202\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_danish_ci\":{\"Collation\":\"utf8_danish_ci\",\"Charset\":\"utf8\",\"Id\":\"203\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_lithuanian_ci\":{\"Collation\":\"utf8_lithuanian_ci\",\"Charset\":\"utf8\",\"Id\":\"204\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_slovak_ci\":{\"Collation\":\"utf8_slovak_ci\",\"Charset\":\"utf8\",\"Id\":\"205\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_spanish2_ci\":{\"Collation\":\"utf8_spanish2_ci\",\"Charset\":\"utf8\",\"Id\":\"206\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_roman_ci\":{\"Collation\":\"utf8_roman_ci\",\"Charset\":\"utf8\",\"Id\":\"207\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_persian_ci\":{\"Collation\":\"utf8_persian_ci\",\"Charset\":\"utf8\",\"Id\":\"208\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_esperanto_ci\":{\"Collation\":\"utf8_esperanto_ci\",\"Charset\":\"utf8\",\"Id\":\"209\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_hungarian_ci\":{\"Collation\":\"utf8_hungarian_ci\",\"Charset\":\"utf8\",\"Id\":\"210\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_sinhala_ci\":{\"Collation\":\"utf8_sinhala_ci\",\"Charset\":\"utf8\",\"Id\":\"211\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_german2_ci\":{\"Collation\":\"utf8_german2_ci\",\"Charset\":\"utf8\",\"Id\":\"212\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_croatian_ci\":{\"Collation\":\"utf8_croatian_ci\",\"Charset\":\"utf8\",\"Id\":\"213\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_unicode_520_ci\":{\"Collation\":\"utf8_unicode_520_ci\",\"Charset\":\"utf8\",\"Id\":\"214\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_vietnamese_ci\":{\"Collation\":\"utf8_vietnamese_ci\",\"Charset\":\"utf8\",\"Id\":\"215\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8_general_mysql500_ci\":{\"Collation\":\"utf8_general_mysql500_ci\",\"Charset\":\"utf8\",\"Id\":\"223\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"ucs2_general_ci\":{\"Collation\":\"ucs2_general_ci\",\"Charset\":\"ucs2\",\"Id\":\"35\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"ucs2_bin\":{\"Collation\":\"ucs2_bin\",\"Charset\":\"ucs2\",\"Id\":\"90\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"ucs2_unicode_ci\":{\"Collation\":\"ucs2_unicode_ci\",\"Charset\":\"ucs2\",\"Id\":\"128\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_icelandic_ci\":{\"Collation\":\"ucs2_icelandic_ci\",\"Charset\":\"ucs2\",\"Id\":\"129\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_latvian_ci\":{\"Collation\":\"ucs2_latvian_ci\",\"Charset\":\"ucs2\",\"Id\":\"130\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_romanian_ci\":{\"Collation\":\"ucs2_romanian_ci\",\"Charset\":\"ucs2\",\"Id\":\"131\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_slovenian_ci\":{\"Collation\":\"ucs2_slovenian_ci\",\"Charset\":\"ucs2\",\"Id\":\"132\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_polish_ci\":{\"Collation\":\"ucs2_polish_ci\",\"Charset\":\"ucs2\",\"Id\":\"133\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_estonian_ci\":{\"Collation\":\"ucs2_estonian_ci\",\"Charset\":\"ucs2\",\"Id\":\"134\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_spanish_ci\":{\"Collation\":\"ucs2_spanish_ci\",\"Charset\":\"ucs2\",\"Id\":\"135\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_swedish_ci\":{\"Collation\":\"ucs2_swedish_ci\",\"Charset\":\"ucs2\",\"Id\":\"136\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_turkish_ci\":{\"Collation\":\"ucs2_turkish_ci\",\"Charset\":\"ucs2\",\"Id\":\"137\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_czech_ci\":{\"Collation\":\"ucs2_czech_ci\",\"Charset\":\"ucs2\",\"Id\":\"138\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_danish_ci\":{\"Collation\":\"ucs2_danish_ci\",\"Charset\":\"ucs2\",\"Id\":\"139\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_lithuanian_ci\":{\"Collation\":\"ucs2_lithuanian_ci\",\"Charset\":\"ucs2\",\"Id\":\"140\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_slovak_ci\":{\"Collation\":\"ucs2_slovak_ci\",\"Charset\":\"ucs2\",\"Id\":\"141\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_spanish2_ci\":{\"Collation\":\"ucs2_spanish2_ci\",\"Charset\":\"ucs2\",\"Id\":\"142\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_roman_ci\":{\"Collation\":\"ucs2_roman_ci\",\"Charset\":\"ucs2\",\"Id\":\"143\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_persian_ci\":{\"Collation\":\"ucs2_persian_ci\",\"Charset\":\"ucs2\",\"Id\":\"144\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_esperanto_ci\":{\"Collation\":\"ucs2_esperanto_ci\",\"Charset\":\"ucs2\",\"Id\":\"145\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_hungarian_ci\":{\"Collation\":\"ucs2_hungarian_ci\",\"Charset\":\"ucs2\",\"Id\":\"146\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_sinhala_ci\":{\"Collation\":\"ucs2_sinhala_ci\",\"Charset\":\"ucs2\",\"Id\":\"147\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_german2_ci\":{\"Collation\":\"ucs2_german2_ci\",\"Charset\":\"ucs2\",\"Id\":\"148\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_croatian_ci\":{\"Collation\":\"ucs2_croatian_ci\",\"Charset\":\"ucs2\",\"Id\":\"149\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_unicode_520_ci\":{\"Collation\":\"ucs2_unicode_520_ci\",\"Charset\":\"ucs2\",\"Id\":\"150\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_vietnamese_ci\":{\"Collation\":\"ucs2_vietnamese_ci\",\"Charset\":\"ucs2\",\"Id\":\"151\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"ucs2_general_mysql500_ci\":{\"Collation\":\"ucs2_general_mysql500_ci\",\"Charset\":\"ucs2\",\"Id\":\"159\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp866_general_ci\":{\"Collation\":\"cp866_general_ci\",\"Charset\":\"cp866\",\"Id\":\"36\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp866_bin\":{\"Collation\":\"cp866_bin\",\"Charset\":\"cp866\",\"Id\":\"68\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"keybcs2_general_ci\":{\"Collation\":\"keybcs2_general_ci\",\"Charset\":\"keybcs2\",\"Id\":\"37\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"keybcs2_bin\":{\"Collation\":\"keybcs2_bin\",\"Charset\":\"keybcs2\",\"Id\":\"73\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"macce_general_ci\":{\"Collation\":\"macce_general_ci\",\"Charset\":\"macce\",\"Id\":\"38\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"macce_bin\":{\"Collation\":\"macce_bin\",\"Charset\":\"macce\",\"Id\":\"43\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"macroman_general_ci\":{\"Collation\":\"macroman_general_ci\",\"Charset\":\"macroman\",\"Id\":\"39\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"macroman_bin\":{\"Collation\":\"macroman_bin\",\"Charset\":\"macroman\",\"Id\":\"53\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp852_general_ci\":{\"Collation\":\"cp852_general_ci\",\"Charset\":\"cp852\",\"Id\":\"40\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp852_bin\":{\"Collation\":\"cp852_bin\",\"Charset\":\"cp852\",\"Id\":\"81\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin7_estonian_cs\":{\"Collation\":\"latin7_estonian_cs\",\"Charset\":\"latin7\",\"Id\":\"20\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin7_general_ci\":{\"Collation\":\"latin7_general_ci\",\"Charset\":\"latin7\",\"Id\":\"41\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin7_general_cs\":{\"Collation\":\"latin7_general_cs\",\"Charset\":\"latin7\",\"Id\":\"42\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"latin7_bin\":{\"Collation\":\"latin7_bin\",\"Charset\":\"latin7\",\"Id\":\"79\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"utf8mb4_general_ci\":{\"Collation\":\"utf8mb4_general_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"45\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"utf8mb4_bin\":{\"Collation\":\"utf8mb4_bin\",\"Charset\":\"utf8mb4\",\"Id\":\"46\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"utf8mb4_unicode_ci\":{\"Collation\":\"utf8mb4_unicode_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"224\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_icelandic_ci\":{\"Collation\":\"utf8mb4_icelandic_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"225\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_latvian_ci\":{\"Collation\":\"utf8mb4_latvian_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"226\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_romanian_ci\":{\"Collation\":\"utf8mb4_romanian_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"227\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_slovenian_ci\":{\"Collation\":\"utf8mb4_slovenian_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"228\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_polish_ci\":{\"Collation\":\"utf8mb4_polish_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"229\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_estonian_ci\":{\"Collation\":\"utf8mb4_estonian_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"230\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_spanish_ci\":{\"Collation\":\"utf8mb4_spanish_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"231\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_swedish_ci\":{\"Collation\":\"utf8mb4_swedish_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"232\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_turkish_ci\":{\"Collation\":\"utf8mb4_turkish_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"233\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_czech_ci\":{\"Collation\":\"utf8mb4_czech_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"234\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_danish_ci\":{\"Collation\":\"utf8mb4_danish_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"235\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_lithuanian_ci\":{\"Collation\":\"utf8mb4_lithuanian_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"236\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_slovak_ci\":{\"Collation\":\"utf8mb4_slovak_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"237\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_spanish2_ci\":{\"Collation\":\"utf8mb4_spanish2_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"238\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_roman_ci\":{\"Collation\":\"utf8mb4_roman_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"239\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_persian_ci\":{\"Collation\":\"utf8mb4_persian_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"240\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_esperanto_ci\":{\"Collation\":\"utf8mb4_esperanto_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"241\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_hungarian_ci\":{\"Collation\":\"utf8mb4_hungarian_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"242\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_sinhala_ci\":{\"Collation\":\"utf8mb4_sinhala_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"243\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_german2_ci\":{\"Collation\":\"utf8mb4_german2_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"244\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_croatian_ci\":{\"Collation\":\"utf8mb4_croatian_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"245\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_unicode_520_ci\":{\"Collation\":\"utf8mb4_unicode_520_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"246\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf8mb4_vietnamese_ci\":{\"Collation\":\"utf8mb4_vietnamese_ci\",\"Charset\":\"utf8mb4\",\"Id\":\"247\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"cp1251_bulgarian_ci\":{\"Collation\":\"cp1251_bulgarian_ci\",\"Charset\":\"cp1251\",\"Id\":\"14\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp1251_ukrainian_ci\":{\"Collation\":\"cp1251_ukrainian_ci\",\"Charset\":\"cp1251\",\"Id\":\"23\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp1251_bin\":{\"Collation\":\"cp1251_bin\",\"Charset\":\"cp1251\",\"Id\":\"50\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp1251_general_ci\":{\"Collation\":\"cp1251_general_ci\",\"Charset\":\"cp1251\",\"Id\":\"51\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp1251_general_cs\":{\"Collation\":\"cp1251_general_cs\",\"Charset\":\"cp1251\",\"Id\":\"52\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"utf16_general_ci\":{\"Collation\":\"utf16_general_ci\",\"Charset\":\"utf16\",\"Id\":\"54\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"utf16_bin\":{\"Collation\":\"utf16_bin\",\"Charset\":\"utf16\",\"Id\":\"55\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"utf16_unicode_ci\":{\"Collation\":\"utf16_unicode_ci\",\"Charset\":\"utf16\",\"Id\":\"101\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_icelandic_ci\":{\"Collation\":\"utf16_icelandic_ci\",\"Charset\":\"utf16\",\"Id\":\"102\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_latvian_ci\":{\"Collation\":\"utf16_latvian_ci\",\"Charset\":\"utf16\",\"Id\":\"103\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_romanian_ci\":{\"Collation\":\"utf16_romanian_ci\",\"Charset\":\"utf16\",\"Id\":\"104\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_slovenian_ci\":{\"Collation\":\"utf16_slovenian_ci\",\"Charset\":\"utf16\",\"Id\":\"105\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_polish_ci\":{\"Collation\":\"utf16_polish_ci\",\"Charset\":\"utf16\",\"Id\":\"106\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_estonian_ci\":{\"Collation\":\"utf16_estonian_ci\",\"Charset\":\"utf16\",\"Id\":\"107\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_spanish_ci\":{\"Collation\":\"utf16_spanish_ci\",\"Charset\":\"utf16\",\"Id\":\"108\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_swedish_ci\":{\"Collation\":\"utf16_swedish_ci\",\"Charset\":\"utf16\",\"Id\":\"109\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_turkish_ci\":{\"Collation\":\"utf16_turkish_ci\",\"Charset\":\"utf16\",\"Id\":\"110\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_czech_ci\":{\"Collation\":\"utf16_czech_ci\",\"Charset\":\"utf16\",\"Id\":\"111\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_danish_ci\":{\"Collation\":\"utf16_danish_ci\",\"Charset\":\"utf16\",\"Id\":\"112\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_lithuanian_ci\":{\"Collation\":\"utf16_lithuanian_ci\",\"Charset\":\"utf16\",\"Id\":\"113\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_slovak_ci\":{\"Collation\":\"utf16_slovak_ci\",\"Charset\":\"utf16\",\"Id\":\"114\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_spanish2_ci\":{\"Collation\":\"utf16_spanish2_ci\",\"Charset\":\"utf16\",\"Id\":\"115\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_roman_ci\":{\"Collation\":\"utf16_roman_ci\",\"Charset\":\"utf16\",\"Id\":\"116\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_persian_ci\":{\"Collation\":\"utf16_persian_ci\",\"Charset\":\"utf16\",\"Id\":\"117\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_esperanto_ci\":{\"Collation\":\"utf16_esperanto_ci\",\"Charset\":\"utf16\",\"Id\":\"118\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_hungarian_ci\":{\"Collation\":\"utf16_hungarian_ci\",\"Charset\":\"utf16\",\"Id\":\"119\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_sinhala_ci\":{\"Collation\":\"utf16_sinhala_ci\",\"Charset\":\"utf16\",\"Id\":\"120\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_german2_ci\":{\"Collation\":\"utf16_german2_ci\",\"Charset\":\"utf16\",\"Id\":\"121\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_croatian_ci\":{\"Collation\":\"utf16_croatian_ci\",\"Charset\":\"utf16\",\"Id\":\"122\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_unicode_520_ci\":{\"Collation\":\"utf16_unicode_520_ci\",\"Charset\":\"utf16\",\"Id\":\"123\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16_vietnamese_ci\":{\"Collation\":\"utf16_vietnamese_ci\",\"Charset\":\"utf16\",\"Id\":\"124\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf16le_general_ci\":{\"Collation\":\"utf16le_general_ci\",\"Charset\":\"utf16le\",\"Id\":\"56\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"utf16le_bin\":{\"Collation\":\"utf16le_bin\",\"Charset\":\"utf16le\",\"Id\":\"62\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp1256_general_ci\":{\"Collation\":\"cp1256_general_ci\",\"Charset\":\"cp1256\",\"Id\":\"57\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp1256_bin\":{\"Collation\":\"cp1256_bin\",\"Charset\":\"cp1256\",\"Id\":\"67\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp1257_lithuanian_ci\":{\"Collation\":\"cp1257_lithuanian_ci\",\"Charset\":\"cp1257\",\"Id\":\"29\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp1257_bin\":{\"Collation\":\"cp1257_bin\",\"Charset\":\"cp1257\",\"Id\":\"58\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp1257_general_ci\":{\"Collation\":\"cp1257_general_ci\",\"Charset\":\"cp1257\",\"Id\":\"59\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"utf32_general_ci\":{\"Collation\":\"utf32_general_ci\",\"Charset\":\"utf32\",\"Id\":\"60\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"utf32_bin\":{\"Collation\":\"utf32_bin\",\"Charset\":\"utf32\",\"Id\":\"61\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"utf32_unicode_ci\":{\"Collation\":\"utf32_unicode_ci\",\"Charset\":\"utf32\",\"Id\":\"160\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_icelandic_ci\":{\"Collation\":\"utf32_icelandic_ci\",\"Charset\":\"utf32\",\"Id\":\"161\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_latvian_ci\":{\"Collation\":\"utf32_latvian_ci\",\"Charset\":\"utf32\",\"Id\":\"162\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_romanian_ci\":{\"Collation\":\"utf32_romanian_ci\",\"Charset\":\"utf32\",\"Id\":\"163\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_slovenian_ci\":{\"Collation\":\"utf32_slovenian_ci\",\"Charset\":\"utf32\",\"Id\":\"164\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_polish_ci\":{\"Collation\":\"utf32_polish_ci\",\"Charset\":\"utf32\",\"Id\":\"165\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_estonian_ci\":{\"Collation\":\"utf32_estonian_ci\",\"Charset\":\"utf32\",\"Id\":\"166\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_spanish_ci\":{\"Collation\":\"utf32_spanish_ci\",\"Charset\":\"utf32\",\"Id\":\"167\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_swedish_ci\":{\"Collation\":\"utf32_swedish_ci\",\"Charset\":\"utf32\",\"Id\":\"168\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_turkish_ci\":{\"Collation\":\"utf32_turkish_ci\",\"Charset\":\"utf32\",\"Id\":\"169\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_czech_ci\":{\"Collation\":\"utf32_czech_ci\",\"Charset\":\"utf32\",\"Id\":\"170\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_danish_ci\":{\"Collation\":\"utf32_danish_ci\",\"Charset\":\"utf32\",\"Id\":\"171\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_lithuanian_ci\":{\"Collation\":\"utf32_lithuanian_ci\",\"Charset\":\"utf32\",\"Id\":\"172\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_slovak_ci\":{\"Collation\":\"utf32_slovak_ci\",\"Charset\":\"utf32\",\"Id\":\"173\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_spanish2_ci\":{\"Collation\":\"utf32_spanish2_ci\",\"Charset\":\"utf32\",\"Id\":\"174\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_roman_ci\":{\"Collation\":\"utf32_roman_ci\",\"Charset\":\"utf32\",\"Id\":\"175\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_persian_ci\":{\"Collation\":\"utf32_persian_ci\",\"Charset\":\"utf32\",\"Id\":\"176\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_esperanto_ci\":{\"Collation\":\"utf32_esperanto_ci\",\"Charset\":\"utf32\",\"Id\":\"177\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_hungarian_ci\":{\"Collation\":\"utf32_hungarian_ci\",\"Charset\":\"utf32\",\"Id\":\"178\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_sinhala_ci\":{\"Collation\":\"utf32_sinhala_ci\",\"Charset\":\"utf32\",\"Id\":\"179\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_german2_ci\":{\"Collation\":\"utf32_german2_ci\",\"Charset\":\"utf32\",\"Id\":\"180\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_croatian_ci\":{\"Collation\":\"utf32_croatian_ci\",\"Charset\":\"utf32\",\"Id\":\"181\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_unicode_520_ci\":{\"Collation\":\"utf32_unicode_520_ci\",\"Charset\":\"utf32\",\"Id\":\"182\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"utf32_vietnamese_ci\":{\"Collation\":\"utf32_vietnamese_ci\",\"Charset\":\"utf32\",\"Id\":\"183\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"},\"binary\":{\"Collation\":\"binary\",\"Charset\":\"binary\",\"Id\":\"63\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"geostd8_general_ci\":{\"Collation\":\"geostd8_general_ci\",\"Charset\":\"geostd8\",\"Id\":\"92\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"geostd8_bin\":{\"Collation\":\"geostd8_bin\",\"Charset\":\"geostd8\",\"Id\":\"93\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp932_japanese_ci\":{\"Collation\":\"cp932_japanese_ci\",\"Charset\":\"cp932\",\"Id\":\"95\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"cp932_bin\":{\"Collation\":\"cp932_bin\",\"Charset\":\"cp932\",\"Id\":\"96\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"eucjpms_japanese_ci\":{\"Collation\":\"eucjpms_japanese_ci\",\"Charset\":\"eucjpms\",\"Id\":\"97\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"eucjpms_bin\":{\"Collation\":\"eucjpms_bin\",\"Charset\":\"eucjpms\",\"Id\":\"98\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"gb18030_chinese_ci\":{\"Collation\":\"gb18030_chinese_ci\",\"Charset\":\"gb18030\",\"Id\":\"248\",\"Default\":\"Yes\",\"Compiled\":\"Yes\",\"Sortlen\":\"2\"},\"gb18030_bin\":{\"Collation\":\"gb18030_bin\",\"Charset\":\"gb18030\",\"Id\":\"249\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"1\"},\"gb18030_unicode_520_ci\":{\"Collation\":\"gb18030_unicode_520_ci\",\"Charset\":\"gb18030\",\"Id\":\"250\",\"Default\":\"\",\"Compiled\":\"Yes\",\"Sortlen\":\"8\"}},\"db_unsupported_collate_unique\":[\"utf8mb3_general_ci\"],\"db_collates_found\":[\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"latin1_swedish_ci\",\"latin1_swedish_ci\",\"latin1_swedish_ci\",\"latin1_swedish_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_general_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_general_ci\",\"utf8mb4_general_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_general_ci\",\"utf8mb4_general_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_unicode_ci\",\"utf8mb4_general_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb3_general_ci\",\"utf8mb4_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb4_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb4_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb4_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb4_general_ci\",\"utf8mb4_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb3_general_ci\",\"utf8mb4_general_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_520_ci\",\"utf8mb4_unicode_520_ci\"]}","updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_aioseo_cache","wp_aioseo_notifications","wp_aioseo_posts","wp_gmp_icons","wp_gmp_maps","wp_gmp_marker_groups","wp_gmp_marker_groups_relation","wp_gmp_markers","wp_gmp_membership_presets","wp_gmp_modules","wp_gmp_modules_type","wp_gmp_options","wp_gmp_options_categories","wp_gmp_usage_stat","wp_nf3_action_meta","wp_nf3_actions","wp_nf3_chunks","wp_nf3_field_meta","wp_nf3_fields","wp_nf3_form_meta","wp_nf3_forms","wp_nf3_object_meta","wp_nf3_objects","wp_nf3_relationships","wp_nf3_upgrades","wp_smush_dir_images","wp_statistics_exclusions","wp_statistics_historical","wp_statistics_pages","wp_statistics_search","wp_statistics_useronline","wp_statistics_visit","wp_statistics_visitor","wp_statistics_visitor_relationships","wp_wpsr_caches","wp_wpsr_reviews","wp_yoast_indexable","wp_yoast_indexable_hierarchy","wp_yoast_migrations","wp_yoast_primary_term","wp_yoast_seo_links","wp_yoast_seo_meta"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.023 () Entity: db
+0000.023 () restore_backup(backup_file=backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-db.gz, type=db, info=a:0:{}, last_one=)
+0000.023 () Unpacking backup... (backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-db.gz, 5.6 Mb)
+0000.036 () Database successfully unpacked
+0000.037 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.037 () Using direct MySQL access; value of use_mysqli is: 1
+0000.037 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION
+0000.121 () Max packet size: 32 MB
+0000.121 () Entering maintenance mode
+0000.121 () Enabling Maintenance mode&#8230;
+0000.125 () Backup of: http://www.cxrtrans.com
+0000.126 () Site home: https://www.cxrtrans.com
+0000.126 () Content URL: http://www.cxrtrans.com/wp-content
+0000.126 () Uploads URL: https://www.cxrtrans.com/wp-content/uploads
+0000.126 () Old table prefix: wp_
+0000.126 () Old ABSPATH: /home/a16520705/public_html/
+0000.126 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.126 () Site information: multisite=0
+0000.126 () Site information: sql_mode=NO_ENGINE_SUBSTITUTION
+0000.127 () New table prefix: mt_
+0000.132 () Processing table (MyISAM): wp_options - will restore as: mt_options
+0000.178 () Atomic restore: dropping original table (dmm_options)
+0000.179 () Atomic restore: renaming new table (mt_options) to final table name (dmm_options)
+0000.180 () Restoring prior UD configuration (table: dmm_options; keys: 102)
+0000.262 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.263 () Options table fields changed OK
+0000.263 () Uploads path (/home/a16520705/public_html/wp-content/uploads) does not exist - resetting ()
+0000.267 () Search and replacing table: dmm_options: rows: 547
+0000.291 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0000.318 () Processing table (MyISAM): wp_users - will restore as: mt_users
+0000.333 () Atomic restore: dropping original table (dmm_users)
+0000.334 () Atomic restore: renaming new table (mt_users) to final table name (dmm_users)
+0000.335 () Search and replacing table: dmm_users: rows: 1
+0000.336 () Processing table (MyISAM): wp_usermeta - will restore as: mt_usermeta
+0000.347 () Atomic restore: dropping original table (dmm_usermeta)
+0000.347 () Atomic restore: renaming new table (mt_usermeta) to final table name (dmm_usermeta)
+0000.348 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.349 () Usermeta table fields changed OK
+0000.350 () Search and replacing table: dmm_usermeta: rows: 53
+0000.351 () Processing table (MyISAM): wp_actionscheduler_actions - will restore as: mt_actionscheduler_actions
+0000.362 () Atomic restore: dropping original table (dmm_actionscheduler_actions)
+0000.363 () Atomic restore: renaming new table (mt_actionscheduler_actions) to final table name (dmm_actionscheduler_actions)
+0000.365 () Search and replacing table: dmm_actionscheduler_actions: rows: 6
+0000.365 () Incomplete object detected in database: ActionScheduler_IntervalSchedule; Search and replace will be skipped for these entries
+0000.365 () Incomplete object detected in database: ActionScheduler_SimpleSchedule; Search and replace will be skipped for these entries
+0000.366 () Processing table (MyISAM): wp_actionscheduler_claims - will restore as: mt_actionscheduler_claims
+0000.375 () Atomic restore: dropping original table (dmm_actionscheduler_claims)
+0000.375 () Atomic restore: renaming new table (mt_actionscheduler_claims) to final table name (dmm_actionscheduler_claims)
+0000.377 () Search and replacing table: dmm_actionscheduler_claims: rows: 0
+0000.377 () Processing table (MyISAM): wp_actionscheduler_groups - will restore as: mt_actionscheduler_groups
+0000.387 () Atomic restore: dropping original table (dmm_actionscheduler_groups)
+0000.388 () Atomic restore: renaming new table (mt_actionscheduler_groups) to final table name (dmm_actionscheduler_groups)
+0000.389 () Search and replacing table: dmm_actionscheduler_groups: rows: 2
+0000.390 () Processing table (MyISAM): wp_actionscheduler_logs - will restore as: mt_actionscheduler_logs
+0001.430 () Database queries processed: 50 in 1.39 seconds
+0001.899 () Atomic restore: dropping original table (dmm_actionscheduler_logs)
+0001.906 () Atomic restore: renaming new table (mt_actionscheduler_logs) to final table name (dmm_actionscheduler_logs)
+0001.907 () Search and replacing table: dmm_actionscheduler_logs: rows: 206165
+0001.980 () Searching and replacing reached row: 5000
+0002.042 () Searching and replacing reached row: 10000
+0002.100 () Searching and replacing reached row: 15000
+0002.159 () Searching and replacing reached row: 20000
+0002.222 () Searching and replacing reached row: 25000
+0002.287 () Searching and replacing reached row: 30000
+0002.356 () Searching and replacing reached row: 35000
+0002.423 () Searching and replacing reached row: 40000
+0002.485 () Searching and replacing reached row: 45000
+0002.551 () Searching and replacing reached row: 50000
+0002.618 () Searching and replacing reached row: 55000
+0002.686 () Searching and replacing reached row: 60000
+0002.752 () Searching and replacing reached row: 65000
+0002.817 () Searching and replacing reached row: 70000
+0002.885 () Searching and replacing reached row: 75000
+0002.952 () Searching and replacing reached row: 80000
+0003.019 () Searching and replacing reached row: 85000
+0003.088 () Searching and replacing reached row: 90000
+0003.156 () Searching and replacing reached row: 95000
+0003.232 () Searching and replacing reached row: 100000
+0003.302 () Searching and replacing reached row: 105000
+0003.378 () Searching and replacing reached row: 110000
+0003.449 () Searching and replacing reached row: 115000
+0003.522 () Searching and replacing reached row: 120000
+0003.594 () Searching and replacing reached row: 125000
+0003.679 () Searching and replacing reached row: 130000
+0003.761 () Searching and replacing reached row: 135000
+0003.835 () Searching and replacing reached row: 140000
+0003.924 () Searching and replacing reached row: 145000
+0004.013 () Searching and replacing reached row: 150000
+0004.089 () Searching and replacing reached row: 155000
+0004.168 () Searching and replacing reached row: 160000
+0004.245 () Searching and replacing reached row: 165000
+0004.333 () Searching and replacing reached row: 170000
+0004.427 () Searching and replacing reached row: 175000
+0004.522 () Searching and replacing reached row: 180000
+0004.617 () Searching and replacing reached row: 185000
+0004.705 () Searching and replacing reached row: 190000
+0004.794 () Searching and replacing reached row: 195000
+0004.875 () Searching and replacing reached row: 200000
+0004.962 () Searching and replacing reached row: 205000
+0005.008 () Processing table (MyISAM): wp_commentmeta - will restore as: mt_commentmeta
+0005.017 () Atomic restore: dropping original table (dmm_commentmeta)
+0005.018 () Atomic restore: renaming new table (mt_commentmeta) to final table name (dmm_commentmeta)
+0005.019 () Search and replacing table: dmm_commentmeta: rows: 0
+0005.019 () Processing table (MyISAM): wp_comments - will restore as: mt_comments
+0005.028 () Atomic restore: dropping original table (dmm_comments)
+0005.029 () Atomic restore: renaming new table (mt_comments) to final table name (dmm_comments)
+0005.030 () Search and replacing table: dmm_comments: rows: 1
+0005.031 () Processing table (MyISAM): wp_links - will restore as: mt_links
+0005.039 () Atomic restore: dropping original table (dmm_links)
+0005.040 () Atomic restore: renaming new table (mt_links) to final table name (dmm_links)
+0005.041 () Search and replacing table: dmm_links: rows: 7
+0005.042 () Processing table (MyISAM): wp_postmeta - will restore as: mt_postmeta
+0005.139 () Atomic restore: dropping original table (dmm_postmeta)
+0005.140 () Atomic restore: renaming new table (mt_postmeta) to final table name (dmm_postmeta)
+0005.145 () Search and replacing table: dmm_postmeta: rows: 53
+0005.170 () Processing table (MyISAM): wp_posts - will restore as: mt_posts
+0005.272 () Atomic restore: dropping original table (dmm_posts)
+0005.273 () Atomic restore: renaming new table (mt_posts) to final table name (dmm_posts)
+0005.275 () Skipping search/replace on GUID column in posts table
+0005.275 () Search and replacing table: dmm_posts: rows: 754
+0005.399 () Processing table (MyISAM): wp_term_relationships - will restore as: mt_term_relationships
+0005.410 () Atomic restore: dropping original table (dmm_term_relationships)
+0005.410 () Atomic restore: renaming new table (mt_term_relationships) to final table name (dmm_term_relationships)
+0005.410 () Skipping this table: data in this table (dmm_term_relationships) should not be search/replaced
+0005.411 () Processing table (MyISAM): wp_term_taxonomy - will restore as: mt_term_taxonomy
+0005.419 () Atomic restore: dropping original table (dmm_term_taxonomy)
+0005.420 () Atomic restore: renaming new table (mt_term_taxonomy) to final table name (dmm_term_taxonomy)
+0005.421 () Search and replacing table: dmm_term_taxonomy: rows: 16
+0005.422 () Processing table (MyISAM): wp_termmeta - will restore as: mt_termmeta
+0005.438 () Atomic restore: dropping original table (dmm_termmeta)
+0005.439 () Atomic restore: renaming new table (mt_termmeta) to final table name (dmm_termmeta)
+0005.440 () Search and replacing table: dmm_termmeta: rows: 0
+0005.440 () Processing table (MyISAM): wp_terms - will restore as: mt_terms
+0005.449 () Atomic restore: dropping original table (dmm_terms)
+0005.450 () Atomic restore: renaming new table (mt_terms) to final table name (dmm_terms)
+0005.451 () Search and replacing table: dmm_terms: rows: 16
+0005.451 () Processing table (InnoDB): wp_aioseo_cache - will restore as: mt_aioseo_cache
+0005.480 () Atomic restore: dropping original table (dmm_aioseo_cache)
+0005.520 () Atomic restore: renaming new table (mt_aioseo_cache) to final table name (dmm_aioseo_cache)
+0005.524 () Search and replacing table: dmm_aioseo_cache: rows: 7
+0005.530 () Processing table (MyISAM): wp_aioseo_notifications - will restore as: mt_aioseo_notifications
+0005.545 () Atomic restore: dropping original table (dmm_aioseo_notifications)
+0005.546 () Atomic restore: renaming new table (mt_aioseo_notifications) to final table name (dmm_aioseo_notifications)
+0005.547 () Search and replacing table: dmm_aioseo_notifications: rows: 44
+0005.550 () Processing table (MyISAM): wp_aioseo_posts - will restore as: mt_aioseo_posts
+0005.570 () Database queries processed: 100 in 5.53 seconds
+0005.570 () Atomic restore: dropping original table (dmm_aioseo_posts)
+0005.571 () Atomic restore: renaming new table (mt_aioseo_posts) to final table name (dmm_aioseo_posts)
+0005.573 () Search and replacing table: dmm_aioseo_posts: rows: 294
+0005.613 () Processing table (MyISAM): wp_gmp_icons - will restore as: mt_gmp_icons
+0005.623 () Atomic restore: dropping original table (dmm_gmp_icons)
+0005.624 () Atomic restore: renaming new table (mt_gmp_icons) to final table name (dmm_gmp_icons)
+0005.625 () Search and replacing table: dmm_gmp_icons: rows: 48
+0005.627 () Processing table (MyISAM): wp_gmp_maps - will restore as: mt_gmp_maps
+0005.636 () Atomic restore: dropping original table (dmm_gmp_maps)
+0005.637 () Atomic restore: renaming new table (mt_gmp_maps) to final table name (dmm_gmp_maps)
+0005.638 () Search and replacing table: dmm_gmp_maps: rows: 3
+0005.639 () Processing table (MyISAM): wp_gmp_marker_groups - will restore as: mt_gmp_marker_groups
+0005.646 () Atomic restore: dropping original table (dmm_gmp_marker_groups)
+0005.647 () Atomic restore: renaming new table (mt_gmp_marker_groups) to final table name (dmm_gmp_marker_groups)
+0005.648 () Search and replacing table: dmm_gmp_marker_groups: rows: 0
+0005.648 () Processing table (MyISAM): wp_gmp_marker_groups_relation - will restore as: mt_gmp_marker_groups_relation
+0005.656 () Atomic restore: dropping original table (dmm_gmp_marker_groups_relation)
+0005.657 () Atomic restore: renaming new table (mt_gmp_marker_groups_relation) to final table name (dmm_gmp_marker_groups_relation)
+0005.658 () Search and replacing table: dmm_gmp_marker_groups_relation: rows: 13
+0005.659 () Processing table (MyISAM): wp_gmp_markers - will restore as: mt_gmp_markers
+0005.667 () Atomic restore: dropping original table (dmm_gmp_markers)
+0005.668 () Atomic restore: renaming new table (mt_gmp_markers) to final table name (dmm_gmp_markers)
+0005.669 () Search and replacing table: dmm_gmp_markers: rows: 15
+0005.670 () Processing table (MyISAM): wp_gmp_membership_presets - will restore as: mt_gmp_membership_presets
+0005.679 () Atomic restore: dropping original table (dmm_gmp_membership_presets)
+0005.679 () Atomic restore: renaming new table (mt_gmp_membership_presets) to final table name (dmm_gmp_membership_presets)
+0005.680 () Search and replacing table: dmm_gmp_membership_presets: rows: 2
+0005.681 () Processing table (MyISAM): wp_gmp_modules - will restore as: mt_gmp_modules
+0005.689 () Atomic restore: dropping original table (dmm_gmp_modules)
+0005.690 () Atomic restore: renaming new table (mt_gmp_modules) to final table name (dmm_gmp_modules)
+0005.691 () Search and replacing table: dmm_gmp_modules: rows: 14
+0005.692 () Processing table (MyISAM): wp_gmp_modules_type - will restore as: mt_gmp_modules_type
+0005.700 () Atomic restore: dropping original table (dmm_gmp_modules_type)
+0005.700 () Atomic restore: renaming new table (mt_gmp_modules_type) to final table name (dmm_gmp_modules_type)
+0005.702 () Search and replacing table: dmm_gmp_modules_type: rows: 4
+0005.702 () Processing table (MyISAM): wp_gmp_options - will restore as: mt_gmp_options
+0005.711 () Atomic restore: dropping original table (dmm_gmp_options)
+0005.712 () Atomic restore: renaming new table (mt_gmp_options) to final table name (dmm_gmp_options)
+0005.713 () Search and replacing table: dmm_gmp_options: rows: 2
+0005.714 () Processing table (MyISAM): wp_gmp_options_categories - will restore as: mt_gmp_options_categories
+0005.722 () Atomic restore: dropping original table (dmm_gmp_options_categories)
+0005.723 () Atomic restore: renaming new table (mt_gmp_options_categories) to final table name (dmm_gmp_options_categories)
+0005.724 () Search and replacing table: dmm_gmp_options_categories: rows: 4
+0005.725 () Processing table (MyISAM): wp_gmp_usage_stat - will restore as: mt_gmp_usage_stat
+0005.734 () Atomic restore: dropping original table (dmm_gmp_usage_stat)
+0005.734 () Atomic restore: renaming new table (mt_gmp_usage_stat) to final table name (dmm_gmp_usage_stat)
+0005.736 () Search and replacing table: dmm_gmp_usage_stat: rows: 1
+0005.736 () Processing table (InnoDB): wp_nf3_action_meta - will restore as: mt_nf3_action_meta
+0005.755 () Atomic restore: dropping original table (dmm_nf3_action_meta)
+0005.793 () Atomic restore: renaming new table (mt_nf3_action_meta) to final table name (dmm_nf3_action_meta)
+0005.799 () Search and replacing table: dmm_nf3_action_meta: rows: 142
+0005.801 () Processing table (InnoDB): wp_nf3_actions - will restore as: mt_nf3_actions
+0005.820 () Atomic restore: dropping original table (dmm_nf3_actions)
+0005.858 () Atomic restore: renaming new table (mt_nf3_actions) to final table name (dmm_nf3_actions)
+0005.863 () Search and replacing table: dmm_nf3_actions: rows: 6
+0005.863 () Processing table (MyISAM): wp_nf3_chunks - will restore as: mt_nf3_chunks
+0005.873 () Atomic restore: dropping original table (dmm_nf3_chunks)
+0005.873 () Atomic restore: renaming new table (mt_nf3_chunks) to final table name (dmm_nf3_chunks)
+0005.875 () Search and replacing table: dmm_nf3_chunks: rows: 0
+0005.875 () Processing table (InnoDB): wp_nf3_field_meta - will restore as: mt_nf3_field_meta
+0005.894 () Atomic restore: dropping original table (dmm_nf3_field_meta)
+0005.933 () Atomic restore: renaming new table (mt_nf3_field_meta) to final table name (dmm_nf3_field_meta)
+0005.938 () Search and replacing table: dmm_nf3_field_meta: rows: 213
+0005.941 () Processing table (InnoDB): wp_nf3_fields - will restore as: mt_nf3_fields
+0005.967 () Atomic restore: dropping original table (dmm_nf3_fields)
+0006.005 () Atomic restore: renaming new table (mt_nf3_fields) to final table name (dmm_nf3_fields)
+0006.010 () Search and replacing table: dmm_nf3_fields: rows: 10
+0006.011 () Processing table (InnoDB): wp_nf3_form_meta - will restore as: mt_nf3_form_meta
+0006.031 () Atomic restore: dropping original table (dmm_nf3_form_meta)
+0006.069 () Database queries processed: 150 in 6.03 seconds
+0006.069 () Atomic restore: renaming new table (mt_nf3_form_meta) to final table name (dmm_nf3_form_meta)
+0006.074 () Search and replacing table: dmm_nf3_form_meta: rows: 68
+0006.077 () Processing table (InnoDB): wp_nf3_forms - will restore as: mt_nf3_forms
+0006.093 () Atomic restore: dropping original table (dmm_nf3_forms)
+0006.130 () Atomic restore: renaming new table (mt_nf3_forms) to final table name (dmm_nf3_forms)
+0006.134 () Search and replacing table: dmm_nf3_forms: rows: 2
+0006.134 () Processing table (InnoDB): wp_nf3_object_meta - will restore as: mt_nf3_object_meta
+0006.150 () Atomic restore: dropping original table (dmm_nf3_object_meta)
+0006.186 () Atomic restore: renaming new table (mt_nf3_object_meta) to final table name (dmm_nf3_object_meta)
+0006.191 () Search and replacing table: dmm_nf3_object_meta: rows: 0
+0006.191 () Processing table (InnoDB): wp_nf3_objects - will restore as: mt_nf3_objects
+0006.206 () Atomic restore: dropping original table (dmm_nf3_objects)
+0006.244 () Atomic restore: renaming new table (mt_nf3_objects) to final table name (dmm_nf3_objects)
+0006.249 () Search and replacing table: dmm_nf3_objects: rows: 0
+0006.249 () Processing table (InnoDB): wp_nf3_relationships - will restore as: mt_nf3_relationships
+0006.266 () Atomic restore: dropping original table (dmm_nf3_relationships)
+0006.305 () Atomic restore: renaming new table (mt_nf3_relationships) to final table name (dmm_nf3_relationships)
+0006.310 () Search and replacing table: dmm_nf3_relationships: rows: 0
+0006.310 () Processing table (MyISAM): wp_nf3_upgrades - will restore as: mt_nf3_upgrades
+0006.321 () Atomic restore: dropping original table (dmm_nf3_upgrades)
+0006.321 () Atomic restore: renaming new table (mt_nf3_upgrades) to final table name (dmm_nf3_upgrades)
+0006.324 () Search and replacing table: dmm_nf3_upgrades: rows: 2
+0006.327 () Processing table (MyISAM): wp_smush_dir_images - will restore as: mt_smush_dir_images
+0006.336 () Atomic restore: dropping original table (dmm_smush_dir_images)
+0006.336 () Atomic restore: renaming new table (mt_smush_dir_images) to final table name (dmm_smush_dir_images)
+0006.339 () Search and replacing table: dmm_smush_dir_images: rows: 0
+0006.339 () Processing table (MyISAM): wp_statistics_exclusions - will restore as: mt_statistics_exclusions
+0006.349 () Atomic restore: dropping original table (dmm_statistics_exclusions)
+0006.350 () Atomic restore: renaming new table (mt_statistics_exclusions) to final table name (dmm_statistics_exclusions)
+0006.352 () Search and replacing table: dmm_statistics_exclusions: rows: 0
+0006.352 () Processing table (MyISAM): wp_statistics_historical - will restore as: mt_statistics_historical
+0006.363 () Atomic restore: dropping original table (dmm_statistics_historical)
+0006.364 () Atomic restore: renaming new table (mt_statistics_historical) to final table name (dmm_statistics_historical)
+0006.366 () Search and replacing table: dmm_statistics_historical: rows: 0
+0006.366 () Processing table (MyISAM): wp_statistics_pages - will restore as: mt_statistics_pages
+0007.381 () Atomic restore: dropping original table (dmm_statistics_pages)
+0007.384 () Atomic restore: renaming new table (mt_statistics_pages) to final table name (dmm_statistics_pages)
+0007.385 () Search and replacing table: dmm_statistics_pages: rows: 38085
+0007.452 () Searching and replacing reached row: 5000
+0007.515 () Searching and replacing reached row: 10000
+0007.578 () Searching and replacing reached row: 15000
+0007.645 () Searching and replacing reached row: 20000
+0007.733 () Searching and replacing reached row: 25000
+0007.802 () Searching and replacing reached row: 30000
+0007.871 () Searching and replacing reached row: 35000
+0007.919 () Processing table (MyISAM): wp_statistics_search - will restore as: mt_statistics_search
+0007.925 () Database queries processed: 200 in 7.89 seconds
+0008.484 () Atomic restore: dropping original table (dmm_statistics_search)
+0008.485 () Atomic restore: renaming new table (mt_statistics_search) to final table name (dmm_statistics_search)
+0008.487 () Search and replacing table: dmm_statistics_search: rows: 46640
+0008.546 () Searching and replacing reached row: 5000
+0008.609 () Searching and replacing reached row: 10000
+0008.673 () Searching and replacing reached row: 15000
+0008.738 () Searching and replacing reached row: 20000
+0008.801 () Searching and replacing reached row: 25000
+0008.864 () Searching and replacing reached row: 30000
+0008.929 () Searching and replacing reached row: 35000
+0008.994 () Searching and replacing reached row: 40000
+0009.064 () Searching and replacing reached row: 45000
+0009.092 () Processing table (MyISAM): wp_statistics_useronline - will restore as: mt_statistics_useronline
+0009.100 () Atomic restore: dropping original table (dmm_statistics_useronline)
+0009.100 () Atomic restore: renaming new table (mt_statistics_useronline) to final table name (dmm_statistics_useronline)
+0009.102 () Search and replacing table: dmm_statistics_useronline: rows: 0
+0009.102 () Processing table (MyISAM): wp_statistics_visit - will restore as: mt_statistics_visit
+0009.130 () Atomic restore: dropping original table (dmm_statistics_visit)
+0009.131 () Atomic restore: renaming new table (mt_statistics_visit) to final table name (dmm_statistics_visit)
+0009.132 () Search and replacing table: dmm_statistics_visit: rows: 2421
+0009.156 () Processing table (MyISAM): wp_statistics_visitor - will restore as: mt_statistics_visitor
+0013.671 () Database queries processed: 250 in 13.63 seconds
+0017.449 () Atomic restore: dropping original table (dmm_statistics_visitor)
+0017.460 () Atomic restore: renaming new table (mt_statistics_visitor) to final table name (dmm_statistics_visitor)
+0017.462 () Search and replacing table: dmm_statistics_visitor: rows: 196081
+0018.031 () Searching and replacing reached row: 5000
+0018.448 () Searching and replacing reached row: 10000
+0018.951 () Searching and replacing reached row: 15000
+0019.431 () Searching and replacing reached row: 20000
+0019.904 () Searching and replacing reached row: 25000
+0020.367 () Searching and replacing reached row: 30000
+0020.824 () Searching and replacing reached row: 35000
+0021.579 () Searching and replacing reached row: 40000
+0022.231 () Searching and replacing reached row: 45000
+0022.813 () Searching and replacing reached row: 50000
+0023.361 () Searching and replacing reached row: 55000
+0023.893 () Searching and replacing reached row: 60000
+0024.423 () Searching and replacing reached row: 65000
+0025.043 () Searching and replacing reached row: 70000
+0025.666 () Searching and replacing reached row: 75000
+0026.355 () Searching and replacing reached row: 80000
+0027.025 () Searching and replacing reached row: 85000
+0027.681 () Searching and replacing reached row: 90000
+0028.405 () Searching and replacing reached row: 95000
+0029.098 () Searching and replacing reached row: 100000
+0029.746 () Searching and replacing reached row: 105000
+0030.419 () Searching and replacing reached row: 110000
+0031.210 () Searching and replacing reached row: 115000
+0031.947 () Searching and replacing reached row: 120000
+0032.625 () Searching and replacing reached row: 125000
+0033.320 () Searching and replacing reached row: 130000
+0034.162 () Searching and replacing reached row: 135000
+0034.978 () Searching and replacing reached row: 140000
+0035.849 () Searching and replacing reached row: 145000
+0036.750 () Searching and replacing reached row: 150000
+0037.628 () Searching and replacing reached row: 155000
+0038.508 () Searching and replacing reached row: 160000
+0039.321 () Searching and replacing reached row: 165000
+0040.183 () Searching and replacing reached row: 170000
+0041.018 () Searching and replacing reached row: 175000
+0041.772 () Searching and replacing reached row: 180000
+0042.430 () Searching and replacing reached row: 185000
+0043.193 () Searching and replacing reached row: 190000
+0044.000 () Searching and replacing reached row: 195000
+0044.246 () Processing table (MyISAM): wp_statistics_visitor_relationships - will restore as: mt_statistics_visitor_relationships
+0044.257 () Atomic restore: dropping original table (dmm_statistics_visitor_relationships)
+0044.257 () Atomic restore: renaming new table (mt_statistics_visitor_relationships) to final table name (dmm_statistics_visitor_relationships)
+0044.259 () Search and replacing table: dmm_statistics_visitor_relationships: rows: 0
+0044.259 () Processing table (InnoDB): wp_wpsr_caches - will restore as: mt_wpsr_caches
+0044.276 () Atomic restore: dropping original table (dmm_wpsr_caches)
+0044.333 () Atomic restore: renaming new table (mt_wpsr_caches) to final table name (dmm_wpsr_caches)
+0044.338 () Search and replacing table: dmm_wpsr_caches: rows: 0
+0044.338 () Processing table (InnoDB): wp_wpsr_reviews - will restore as: mt_wpsr_reviews
+0044.354 () Atomic restore: dropping original table (dmm_wpsr_reviews)
+0044.389 () Atomic restore: renaming new table (mt_wpsr_reviews) to final table name (dmm_wpsr_reviews)
+0044.394 () Search and replacing table: dmm_wpsr_reviews: rows: 0
+0044.394 () Processing table (MyISAM): wp_yoast_indexable - will restore as: mt_yoast_indexable
+0044.408 () Atomic restore: dropping original table (dmm_yoast_indexable)
+0044.408 () Atomic restore: renaming new table (mt_yoast_indexable) to final table name (dmm_yoast_indexable)
+0044.410 () Search and replacing table: dmm_yoast_indexable: rows: 82
+0044.431 () Processing table (MyISAM): wp_yoast_indexable_hierarchy - will restore as: mt_yoast_indexable_hierarchy
+0044.439 () Atomic restore: dropping original table (dmm_yoast_indexable_hierarchy)
+0044.440 () Atomic restore: renaming new table (mt_yoast_indexable_hierarchy) to final table name (dmm_yoast_indexable_hierarchy)
+0044.442 () Search and replacing table: dmm_yoast_indexable_hierarchy: rows: 0
+0044.442 () Processing table (MyISAM): wp_yoast_migrations - will restore as: mt_yoast_migrations
+0044.450 () Atomic restore: dropping original table (dmm_yoast_migrations)
+0044.451 () Atomic restore: renaming new table (mt_yoast_migrations) to final table name (dmm_yoast_migrations)
+0044.452 () Search and replacing table: dmm_yoast_migrations: rows: 18
+0044.453 () Processing table (MyISAM): wp_yoast_primary_term - will restore as: mt_yoast_primary_term
+0044.462 () Atomic restore: dropping original table (dmm_yoast_primary_term)
+0044.462 () Atomic restore: renaming new table (mt_yoast_primary_term) to final table name (dmm_yoast_primary_term)
+0044.465 () Search and replacing table: dmm_yoast_primary_term: rows: 0
+0044.465 () Processing table (MyISAM): wp_yoast_seo_links - will restore as: mt_yoast_seo_links
+0044.472 () Atomic restore: dropping original table (dmm_yoast_seo_links)
+0044.473 () Atomic restore: renaming new table (mt_yoast_seo_links) to final table name (dmm_yoast_seo_links)
+0044.475 () Search and replacing table: dmm_yoast_seo_links: rows: 0
+0044.475 () Processing table (MyISAM): wp_yoast_seo_meta - will restore as: mt_yoast_seo_meta
+0044.481 () Unlocking database and leaving maintenance mode
+0044.481 () Disabling Maintenance mode&#8230;
+0044.481 () Atomic restore: dropping original table (dmm_yoast_seo_meta)
+0044.482 () Atomic restore: renaming new table (mt_yoast_seo_meta) to final table name (dmm_yoast_seo_meta)
+0044.484 () Search and replacing table: dmm_yoast_seo_meta: rows: 1
+0044.484 () Finished: lines processed: 284 in 44.44 seconds
+0044.486 () Cleaning up rubbish...
+0044.487 () Begin search and replace (updraftplus_restored_db)
+0044.487 () [Database-replace-site-url] Database: search and replace site URL
+0044.487 () Database search and replace: replace http://www.cxrtrans.com in backup dump with https://devt27.sg-host.com
+0044.487 () Database search and replace: replace https://www.cxrtrans.com in backup dump with https://devt27.sg-host.com
+0044.487 () Database search and replace: replace http://cxrtrans.com in backup dump with https://devt27.sg-host.com
+0044.487 () Database search and replace: replace https://cxrtrans.com in backup dump with https://devt27.sg-host.com
+0044.487 () Database search and replace: replace /home/a16520705/public_html in backup dump with /home/customer/www/devt27.sg-host.com/public_html
+0044.488 () Search and replacing table: dmm_actionscheduler_actions: already done
+0044.488 () Search and replacing table: dmm_actionscheduler_claims: already done
+0044.488 () Search and replacing table: dmm_actionscheduler_groups: already done
+0044.488 () Search and replacing table: dmm_actionscheduler_logs: already done
+0044.488 () Search and replacing table: dmm_aioseo_cache: already done
+0044.488 () Search and replacing table: dmm_aioseo_notifications: already done
+0044.488 () Search and replacing table: dmm_aioseo_posts: already done
+0044.488 () Search and replacing table: dmm_commentmeta: already done
+0044.488 () Search and replacing table: dmm_comments: already done
+0044.488 () Search and replacing table: dmm_gmp_icons: already done
+0044.488 () Search and replacing table: dmm_gmp_maps: already done
+0044.488 () Search and replacing table: dmm_gmp_marker_groups: already done
+0044.489 () Search and replacing table: dmm_gmp_marker_groups_relation: already done
+0044.489 () Search and replacing table: dmm_gmp_markers: already done
+0044.489 () Search and replacing table: dmm_gmp_membership_presets: already done
+0044.489 () Search and replacing table: dmm_gmp_modules: already done
+0044.489 () Search and replacing table: dmm_gmp_modules_type: already done
+0044.489 () Search and replacing table: dmm_gmp_options: already done
+0044.489 () Search and replacing table: dmm_gmp_options_categories: already done
+0044.489 () Search and replacing table: dmm_gmp_usage_stat: already done
+0044.489 () Search and replacing table: dmm_links: already done
+0044.489 () Search and replacing table: dmm_nf3_action_meta: already done
+0044.489 () Search and replacing table: dmm_nf3_actions: already done
+0044.489 () Search and replacing table: dmm_nf3_chunks: already done
+0044.489 () Search and replacing table: dmm_nf3_field_meta: already done
+0044.489 () Search and replacing table: dmm_nf3_fields: already done
+0044.489 () Search and replacing table: dmm_nf3_form_meta: already done
+0044.489 () Search and replacing table: dmm_nf3_forms: already done
+0044.489 () Search and replacing table: dmm_nf3_object_meta: already done
+0044.489 () Search and replacing table: dmm_nf3_objects: already done
+0044.489 () Search and replacing table: dmm_nf3_relationships: already done
+0044.489 () Search and replacing table: dmm_nf3_upgrades: already done
+0044.489 () Search and replacing table: dmm_options: already done
+0044.489 () Search and replacing table: dmm_postmeta: already done
+0044.489 () Search and replacing table: dmm_posts: already done
+0044.489 () Search and replacing table: dmm_smush_dir_images: already done
+0044.489 () Search and replacing table: dmm_statistics_exclusions: already done
+0044.489 () Search and replacing table: dmm_statistics_historical: already done
+0044.489 () Search and replacing table: dmm_statistics_pages: already done
+0044.489 () Search and replacing table: dmm_statistics_search: already done
+0044.489 () Search and replacing table: dmm_statistics_useronline: already done
+0044.489 () Search and replacing table: dmm_statistics_visit: already done
+0044.489 () Search and replacing table: dmm_statistics_visitor: already done
+0044.489 () Search and replacing table: dmm_statistics_visitor_relationships: already done
+0044.490 () Search and replacing table: dmm_term_relationships: already done
+0044.490 () Search and replacing table: dmm_term_taxonomy: already done
+0044.490 () Search and replacing table: dmm_termmeta: already done
+0044.490 () Search and replacing table: dmm_terms: already done
+0044.490 () Search and replacing table: dmm_usermeta: already done
+0044.490 () Search and replacing table: dmm_users: already done
+0044.490 () Search and replacing table: dmm_wpsr_caches: already done
+0044.490 () Search and replacing table: dmm_wpsr_reviews: already done
+0044.490 () Search and replacing table: dmm_yoast_indexable: already done
+0044.490 () Search and replacing table: dmm_yoast_indexable_hierarchy: already done
+0044.490 () Search and replacing table: dmm_yoast_migrations: already done
+0044.490 () Search and replacing table: dmm_yoast_primary_term: already done
+0044.490 () Search and replacing table: dmm_yoast_seo_links: already done
+0044.490 () Search and replacing table: dmm_yoast_seo_meta: already done
+0044.493 () Search and replacing table: dmm_sgs_log_events: rows: 17
+0044.495 () Search and replacing table: dmm_sgs_log_visitors: rows: 8
+0044.508 () Entity: plugins
+0044.508 () restore_backup(backup_file=backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:68:"/home/customer/www/devt27.sg-host.com/public_html/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0044.508 () Unpacking backup... (backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-plugins.zip, 42.4 MB)
+0044.509 () Unzipping backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-plugins.zip to /home/customer/www/devt27.sg-host.com/public_html/wp-content/upgrade/d373d01b/ using UpdraftPlus_ZipArchive, starting index 0
+0044.509 () ZipArchive returned an error (will try again with PclZip): incompatible_archive
+0044.509 () Unzipping backup_2023-11-27-0621_Contractor_Transport_LLC_c7c72ac5e95f-plugins.zip to /home/customer/www/devt27.sg-host.com/public_html/wp-content/upgrade/d373d01b/ using UpdraftPlus_PclZip, starting index 0
+0044.520 () Error message: The package could not be installed.
+0044.520 () Error data (incompatible_archive): a:1:{s:12:"pclzip_error";s:80:"PCLZIP_ERR_BAD_FORMAT (-10) : Unable to find End of Central Dir Record signature";}
+0044.526 () Restore failed...
+0044.526 () Error message: The package could not be installed.
+0044.526 () Error data (incompatible_archive): a:1:{s:12:"pclzip_error";s:80:"PCLZIP_ERR_BAD_FORMAT (-10) : Unable to find End of Central Dir Record signature";}
+0044.526 () Restore failed

@@ -1,0 +1,73 @@
+[27-Nov-2023 05:39:53 UTC] INFO: Transfer started. Creating archives of files... 
+[27-Nov-2023 05:39:53 UTC] INFO: Updating transfer id. 
+[27-Nov-2023 05:39:53 UTC] INFO: Updating transfer psk. 
+[27-Nov-2023 05:39:56 UTC] INFO: Transfer started. Creating archives of files... 
+[27-Nov-2023 05:39:56 UTC] INFO: Updating transfer id. 
+[27-Nov-2023 05:39:56 UTC] INFO: Updating transfer psk. 
+[27-Nov-2023 05:40:13 UTC] INFO: Transfer started. Creating archives of files... 
+[27-Nov-2023 05:40:13 UTC] INFO: Updating transfer id. 
+[27-Nov-2023 05:40:13 UTC] INFO: Updating transfer psk. 
+[27-Nov-2023 05:40:15 UTC] INFO: Site domain to be changed to devt26.sg-host.com/ 
+[27-Nov-2023 05:40:17 UTC] INFO: Site domain to be changed to devt26.sg-host.com/ 
+[27-Nov-2023 05:40:19 UTC] INFO: Site domain to be changed to devt26.sg-host.com/ 
+[27-Nov-2023 05:40:48 UTC] INFO: Transfer started. Creating archives of files... 
+[27-Nov-2023 05:42:54 UTC] INFO: Critical Transfer Error 
+[27-Nov-2023 05:42:55 UTC] ERROR: Array
+(
+    [type] => 1
+    [message] => Uncaught UnexpectedValueException: internal corruption of phar "/home/a16520705/public_html/wp-content/uploads/1701063536-c5270e11e75128e40b7a11de9eec3fcd470a2eb1/plugins/ml-slider.tar" (__HALT_COMPILER(); not found) in /home/a16520705/public_html/wp-content/plugins/siteground-migrator/core/Files_Service/Files_Service.php:257
+Stack trace:
+#0 /home/a16520705/public_html/wp-content/plugins/siteground-migrator/core/Files_Service/Files_Service.php(257): PharData->__construct('/home/a16520705...')
+#1 /home/a16520705/public_html/wp-content/plugins/siteground-migrator/core/Files_Service/Files_Service.php(212): SiteGround_Migrator\Files_Service\Files_Service->archive_dir('/home/a16520705...', '/home/a16520705...')
+#2 /home/a16520705/public_html/wp-content/plugins/siteground-migrator/core/Files_Service/Files_Service.php(138): SiteGround_Migrator\Files_Service\Files_Service->create_encrypted_archive('/plugins/ml-sli...')
+#3 [internal function]: SiteGround_Migrator\Files_Service\Files_Service->prepare_archives_for_downl
+    [file] => /home/a16520705/public_html/wp-content/plugins/siteground-migrator/core/Files_Service/Files_Service.php
+    [line] => 257
+)
+ 
+[27-Nov-2023 05:47:37 UTC] INFO: Transfer started. Creating archives of files... 
+[27-Nov-2023 05:47:37 UTC] INFO: Updating transfer id. 
+[27-Nov-2023 05:47:37 UTC] INFO: Updating transfer psk. 
+[27-Nov-2023 05:47:41 UTC] INFO: Site domain to be changed to devt26.sg-host.com/ 
+[27-Nov-2023 05:47:49 UTC] INFO: Transfer started. Creating archives of files... 
+[27-Nov-2023 05:51:48 UTC] INFO: Critical Transfer Error 
+[27-Nov-2023 05:51:48 UTC] ERROR: Array
+(
+    [type] => 1
+    [message] => Allowed memory size of 134217728 bytes exhausted (tried to allocate 23678544 bytes)
+    [file] => /home/a16520705/public_html/wp-content/plugins/siteground-migrator/core/Files_Service/Files_Service.php
+    [line] => 396
+)
+ 
+[27-Nov-2023 06:00:55 UTC] INFO: Transfer started. Creating archives of files... 
+[27-Nov-2023 06:00:55 UTC] INFO: Updating transfer id. 
+[27-Nov-2023 06:00:55 UTC] INFO: Updating transfer psk. 
+[27-Nov-2023 06:00:59 UTC] INFO: Site domain to be changed to devt26.sg-host.com/ 
+[27-Nov-2023 06:00:59 UTC] INFO: Transfer started. Creating archives of files... 
+[27-Nov-2023 06:00:59 UTC] INFO: Updating transfer id. 
+[27-Nov-2023 06:00:59 UTC] INFO: Updating transfer psk. 
+[27-Nov-2023 06:01:02 UTC] INFO: Site domain to be changed to devt26.sg-host.com/ 
+[27-Nov-2023 06:01:19 UTC] INFO: Transfer started. Creating archives of files... 
+[27-Nov-2023 06:05:06 UTC] INFO: Critical Transfer Error 
+[27-Nov-2023 06:05:06 UTC] ERROR: Array
+(
+    [type] => 1
+    [message] => Allowed memory size of 134217728 bytes exhausted (tried to allocate 23678544 bytes)
+    [file] => /home/a16520705/public_html/wp-content/plugins/siteground-migrator/core/Files_Service/Files_Service.php
+    [line] => 396
+)
+ 
+[27-Nov-2023 06:05:14 UTC] INFO: Critical Transfer Error 
+[27-Nov-2023 06:05:14 UTC] ERROR: Array
+(
+    [type] => 1
+    [message] => Uncaught UnexpectedValueException: internal corruption of phar "/home/a16520705/public_html/wp-content/uploads/1701063536-c5270e11e75128e40b7a11de9eec3fcd470a2eb1/plugins/ml-slider.tar" (__HALT_COMPILER(); not found) in /home/a16520705/public_html/wp-content/plugins/siteground-migrator/core/Files_Service/Files_Service.php:257
+Stack trace:
+#0 /home/a16520705/public_html/wp-content/plugins/siteground-migrator/core/Files_Service/Files_Service.php(257): PharData->__construct('/home/a16520705...')
+#1 /home/a16520705/public_html/wp-content/plugins/siteground-migrator/core/Files_Service/Files_Service.php(212): SiteGround_Migrator\Files_Service\Files_Service->archive_dir('/home/a16520705...', '/home/a16520705...')
+#2 /home/a16520705/public_html/wp-content/plugins/siteground-migrator/core/Files_Service/Files_Service.php(138): SiteGround_Migrator\Files_Service\Files_Service->create_encrypted_archive('/plugins/ml-sli...')
+#3 [internal function]: SiteGround_Migrator\Files_Service\Files_Service->prepare_archives_for_downl
+    [file] => /home/a16520705/public_html/wp-content/plugins/siteground-migrator/core/Files_Service/Files_Service.php
+    [line] => 257
+)
+ 

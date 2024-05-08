@@ -1,0 +1,6 @@
+0000.000 (10) Opened log file at time: Tue, 28 Nov 2023 04:36:05 +0000 on https://devt27.sg-host.com
+0000.001 (10) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.13 WP: 6.4.1 PHP: 7.4.33 (apache2handler, Linux gtxm1253.siteground.biz 5.15.126-MCIclouder399 #399 SMP PREEMPT Wed Aug 16 16:53:17 EEST 2023 x86_64) MySQL: 5.7.39-42-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 66.8M | 36M) multisite: N openssl: OpenSSL 3.0.9 30 May 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 (10) Free space on disk containing Updraft's temporary directory: 726567.9 MB
+0000.003 (10) Requesting backup semaphore lock (c7c72ac5e95f)
+0000.004 (10) [Info] Lock (updraft_lock_c7c72ac5e95f, dmm_options) acquired
+0000.004 (10) This backup task (c7c72ac5e95f) is either complete or began over 2 days ago: ending (1701146165.2108, ) (existing jobdata keys: )

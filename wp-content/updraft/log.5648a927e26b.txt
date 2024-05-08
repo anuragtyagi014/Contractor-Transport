@@ -1,0 +1,382 @@
+0000.000 (0) Opened log file at time: Tue, 28 Nov 2023 04:37:10 +0000 on https://devt27.sg-host.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.13 WP: 6.4.1 PHP: 7.4.33 (apache2handler, Linux gtxm1253.siteground.biz 5.15.126-MCIclouder399 #399 SMP PREEMPT Wed Aug 16 16:53:17 EEST 2023 x86_64) MySQL: 5.7.39-42-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 70.4M | 6M) multisite: N openssl: OpenSSL 3.0.9 30 May 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 726493.7 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.005 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.008 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1701084113, seconds_ago=62117)
+0000.009 (0) Semaphore (fd, dmm_options) was stuck, set lock time to 2023-11-28 04:37:10
+0000.009 (0) Semaphore (fd, dmm_options) reset to 1
+0000.010 (0) Set semaphore last lock (fd) time to 2023-11-28 04:37:10
+0000.010 (0) Semaphore lock (fd) complete
+0000.012 (0) Backup run: resumption=0, nonce=5648a927e26b, file_nonce=5648a927e26b begun at=1701146230 (0s ago), job type=backup
+0000.013 (0) Scheduling a resumption (1) after 600 seconds (1701146830) in case this run gets aborted
+0000.044 (0) Checking if we have a zip executable available
+0000.044 (0) Testing: /usr/bin/zip
+0000.052 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.053 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.053 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.054 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.054 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.086 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.087 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.090 (0) Working binary zip found: /usr/bin/zip
+0000.091 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.091 (0) Creation of backups of directories: beginning
+0000.093 (0) No backup of plugins: excluded by user's options
+0000.093 (0) No backup of themes: excluded by user's options
+0000.094 (0) No backup of uploads: excluded by user's options
+0000.094 (0) No backup of mu-plugins: excluded by user's options
+0000.094 (0) No backup of others: excluded by user's options
+0000.096 (0) Saving backup status to database (elements: 0)
+0000.097 (0) Beginning creation of database dump (WordPress DB)
+0000.098 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0000.099 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.121 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `dmm_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCR (truncated - 1528 bytes total)
+0000.122 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.130 (0) Table dmm_options: Total expected rows (via COUNT): 528
+0000.147 (0) Table dmm_options: Rows added in this batch (next record: 474380): 523 (uncompressed bytes in this segment=352444) in 0.02 seconds
+0000.150 (0) Table dmm_options: finishing file(s) (2, 64.7 KB)
+0000.153 (0) Table dmm_users: Total expected rows (via COUNT): 1
+0000.153 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.154 (0) Table dmm_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1371) in 0.00 seconds
+0000.156 (0) Table dmm_users: finishing file(s) (2, 0.6 KB)
+0000.159 (0) Table dmm_usermeta: Total expected rows (via COUNT): 53
+0000.159 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.161 (0) Table dmm_usermeta: Rows added in this batch (next record: 68): 53 (uncompressed bytes in this segment=7493) in 0.00 seconds
+0000.163 (0) Table dmm_usermeta: finishing file(s) (2, 2.8 KB)
+0000.166 (0) Table dmm_actionscheduler_actions: Total expected rows (via COUNT): 8
+0000.166 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.167 (0) Table dmm_actionscheduler_actions: Rows added in this batch (next record: 120775): 8 (uncompressed bytes in this segment=4444) in 0.00 seconds
+0000.169 (0) Table dmm_actionscheduler_actions: finishing file(s) (2, 1 KB)
+0000.171 (0) Table dmm_actionscheduler_claims: Total expected rows (via COUNT): 0
+0000.172 (0) Table dmm_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=643) in 0.00 seconds
+0000.173 (0) Table dmm_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.175 (0) Table dmm_actionscheduler_groups: Total expected rows (via COUNT): 2
+0000.176 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.177 (0) Table dmm_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=712) in 0.00 seconds
+0000.178 (0) Table dmm_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0000.180 (0) Table dmm_actionscheduler_logs: Total expected rows (approximate): 206171
+0000.181 (0) [Warning] Table dmm_actionscheduler_logs has very many rows (206171) - we hope your web hosting company gives you enough resources to dump out that table in the backup. If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0000.948 (0) Table dmm_actionscheduler_logs: binary mysqldump finished (writes: 49, bytes 17256886, return code 0) in 0.77 seconds
+0001.241 (0) Table dmm_actionscheduler_logs: finishing file(s) (1, 1807.7 KB)
+0001.244 (0) Table dmm_commentmeta: Total expected rows (via COUNT): 0
+0001.245 (0) Table dmm_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=699) in 0.00 seconds
+0001.247 (0) Table dmm_commentmeta: finishing file(s) (2, 0.4 KB)
+0001.249 (0) Table dmm_comments: Total expected rows (via COUNT): 1
+0001.250 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.251 (0) Table dmm_comments: Rows added in this batch (next record: 834): 1 (uncompressed bytes in this segment=2168) in 0.00 seconds
+0001.252 (0) Table dmm_comments: finishing file(s) (2, 0.8 KB)
+0001.256 (0) Table dmm_links: Total expected rows (via COUNT): 7
+0001.256 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.257 (0) Table dmm_links: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=2168) in 0.00 seconds
+0001.260 (0) Table dmm_links: finishing file(s) (2, 0.7 KB)
+0001.264 (0) Table dmm_postmeta: Total expected rows (approximate): 1603
+0001.292 (0) Table dmm_postmeta: Rows added in this batch (next record: 3389): 1603 (uncompressed bytes in this segment=721538) in 0.03 seconds
+0001.295 (0) Table dmm_postmeta: finishing file(s) (2, 72.9 KB)
+0001.300 (0) Table dmm_posts: Total expected rows (via COUNT): 754
+0001.361 (0) Table dmm_posts: Rows added in this batch (next record: 2365): 754 (uncompressed bytes in this segment=2224853) in 0.07 seconds
+0001.364 (0) Table dmm_posts: finishing file(s) (2, 174.3 KB)
+0001.367 (0) Table dmm_term_relationships: Total expected rows (approximate): 97
+0001.369 (0) Table dmm_term_relationships: Rows added in this batch (next record: 100000): 97 (uncompressed bytes in this segment=2187) in 0.00 seconds
+0001.371 (0) Table dmm_term_relationships: finishing file(s) (2, 0.7 KB)
+0001.374 (0) Table dmm_term_taxonomy: Total expected rows (via COUNT): 16
+0001.375 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.376 (0) Table dmm_term_taxonomy: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=1411) in 0.00 seconds
+0001.378 (0) Table dmm_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0001.381 (0) Table dmm_termmeta: Total expected rows (via COUNT): 0
+0001.382 (0) Table dmm_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=652) in 0.00 seconds
+0001.384 (0) Table dmm_termmeta: finishing file(s) (2, 0.4 KB)
+0001.387 (0) Table dmm_terms: Total expected rows (via COUNT): 16
+0001.387 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.388 (0) Table dmm_terms: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=1273) in 0.00 seconds
+0001.390 (0) Table dmm_terms: finishing file(s) (2, 0.6 KB)
+0001.392 (0) Table dmm_aioseo_cache: Total expected rows (via COUNT): 6
+0001.393 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.396 (0) Table dmm_aioseo_cache: Rows added in this batch (next record: 4794): 6 (uncompressed bytes in this segment=91751) in 0.00 seconds
+0001.398 (0) Table dmm_aioseo_cache: finishing file(s) (2, 16.6 KB)
+0001.401 (0) Table dmm_aioseo_notifications: Total expected rows (via COUNT): 44
+0001.401 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.412 (0) Table dmm_aioseo_notifications: Rows added in this batch (next record: 44): 44 (uncompressed bytes in this segment=176201) in 0.01 seconds
+0001.414 (0) Table dmm_aioseo_notifications: finishing file(s) (2, 112.3 KB)
+0001.417 (0) Table dmm_aioseo_posts: Total expected rows (via COUNT): 294
+0001.417 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.430 (0) Table dmm_aioseo_posts: Rows added in this batch (next record: 298): 294 (uncompressed bytes in this segment=141918) in 0.01 seconds
+0001.432 (0) Table dmm_aioseo_posts: finishing file(s) (2, 8.9 KB)
+0001.435 (0) Table dmm_gmp_icons: Total expected rows (via COUNT): 48
+0001.435 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.436 (0) Table dmm_gmp_icons: Rows added in this batch (next record: 48): 48 (uncompressed bytes in this segment=3789) in 0.00 seconds
+0001.438 (0) Table dmm_gmp_icons: finishing file(s) (2, 0.9 KB)
+0001.440 (0) Table dmm_gmp_maps: Total expected rows (via COUNT): 3
+0001.441 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.442 (0) Table dmm_gmp_maps: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=6380) in 0.00 seconds
+0001.445 (0) Table dmm_gmp_maps: finishing file(s) (2, 1.4 KB)
+0001.447 (0) Table dmm_gmp_marker_groups: Total expected rows (via COUNT): 0
+0001.449 (0) Table dmm_gmp_marker_groups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=584) in 0.00 seconds
+0001.451 (0) Table dmm_gmp_marker_groups: finishing file(s) (2, 0.4 KB)
+0001.453 (0) Table dmm_gmp_marker_groups_relation: Total expected rows (via COUNT): 13
+0001.453 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.455 (0) Table dmm_gmp_marker_groups_relation: Rows added in this batch (next record: 19): 13 (uncompressed bytes in this segment=770) in 0.00 seconds
+0001.456 (0) Table dmm_gmp_marker_groups_relation: finishing file(s) (2, 0.4 KB)
+0001.459 (0) Table dmm_gmp_markers: Total expected rows (via COUNT): 15
+0001.459 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.460 (0) Table dmm_gmp_markers: Rows added in this batch (next record: 20): 15 (uncompressed bytes in this segment=5043) in 0.00 seconds
+0001.462 (0) Table dmm_gmp_markers: finishing file(s) (2, 1.2 KB)
+0001.464 (0) Table dmm_gmp_membership_presets: Total expected rows (via COUNT): 2
+0001.465 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.465 (0) Table dmm_gmp_membership_presets: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=554) in 0.00 seconds
+0001.467 (0) Table dmm_gmp_membership_presets: finishing file(s) (2, 0.3 KB)
+0001.469 (0) Table dmm_gmp_modules: Total expected rows (via COUNT): 14
+0001.470 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.471 (0) Table dmm_gmp_modules: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=1601) in 0.00 seconds
+0001.472 (0) Table dmm_gmp_modules: finishing file(s) (2, 0.7 KB)
+0001.474 (0) Table dmm_gmp_modules_type: Total expected rows (via COUNT): 4
+0001.475 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.475 (0) Table dmm_gmp_modules_type: Rows added in this batch (next record: 7): 4 (uncompressed bytes in this segment=567) in 0.00 seconds
+0001.477 (0) Table dmm_gmp_modules_type: finishing file(s) (2, 0.4 KB)
+0001.479 (0) Table dmm_gmp_options: Total expected rows (via COUNT): 2
+0001.479 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.480 (0) Table dmm_gmp_options: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1063) in 0.00 seconds
+0001.482 (0) Table dmm_gmp_options: finishing file(s) (2, 0.6 KB)
+0001.484 (0) Table dmm_gmp_options_categories: Total expected rows (via COUNT): 4
+0001.485 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.486 (0) Table dmm_gmp_options_categories: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=633) in 0.00 seconds
+0001.487 (0) Table dmm_gmp_options_categories: finishing file(s) (2, 0.4 KB)
+0001.490 (0) Table dmm_gmp_usage_stat: Total expected rows (via COUNT): 1
+0001.490 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.491 (0) Table dmm_gmp_usage_stat: Rows added in this batch (next record: 9): 1 (uncompressed bytes in this segment=733) in 0.00 seconds
+0001.492 (0) Table dmm_gmp_usage_stat: finishing file(s) (2, 0.4 KB)
+0001.496 (0) Table dmm_nf3_action_meta: Total expected rows (via COUNT): 142
+0001.496 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.498 (0) Table dmm_nf3_action_meta: Rows added in this batch (next record: 142): 142 (uncompressed bytes in this segment=5553) in 0.00 seconds
+0001.500 (0) Table dmm_nf3_action_meta: finishing file(s) (2, 1.5 KB)
+0001.503 (0) Table dmm_nf3_actions: Total expected rows (via COUNT): 6
+0001.503 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.505 (0) Table dmm_nf3_actions: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1188) in 0.00 seconds
+0001.507 (0) Table dmm_nf3_actions: finishing file(s) (2, 0.5 KB)
+0001.510 (0) Table dmm_nf3_chunks: Total expected rows (via COUNT): 0
+0001.511 (0) Table dmm_nf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=437) in 0.00 seconds
+0001.513 (0) Table dmm_nf3_chunks: finishing file(s) (2, 0.3 KB)
+0001.516 (0) Table dmm_nf3_field_meta: Total expected rows (via COUNT): 213
+0001.516 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.519 (0) Table dmm_nf3_field_meta: Rows added in this batch (next record: 314): 213 (uncompressed bytes in this segment=7660) in 0.00 seconds
+0001.521 (0) Table dmm_nf3_field_meta: finishing file(s) (2, 1.9 KB)
+0001.524 (0) Table dmm_nf3_fields: Total expected rows (via COUNT): 10
+0001.524 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.525 (0) Table dmm_nf3_fields: Rows added in this batch (next record: 16): 10 (uncompressed bytes in this segment=1495) in 0.00 seconds
+0001.527 (0) Table dmm_nf3_fields: finishing file(s) (2, 0.6 KB)
+0001.530 (0) Table dmm_nf3_form_meta: Total expected rows (via COUNT): 68
+0001.530 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.532 (0) Table dmm_nf3_form_meta: Rows added in this batch (next record: 68): 68 (uncompressed bytes in this segment=19124) in 0.00 seconds
+0001.534 (0) Table dmm_nf3_form_meta: finishing file(s) (2, 2 KB)
+0001.537 (0) Table dmm_nf3_forms: Total expected rows (via COUNT): 2
+0001.537 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.539 (0) Table dmm_nf3_forms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1345) in 0.00 seconds
+0001.540 (0) Table dmm_nf3_forms: finishing file(s) (2, 0.6 KB)
+0001.543 (0) Table dmm_nf3_object_meta: Total expected rows (via COUNT): 0
+0001.544 (0) Table dmm_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=571) in 0.00 seconds
+0001.546 (0) Table dmm_nf3_object_meta: finishing file(s) (2, 0.3 KB)
+0001.549 (0) Table dmm_nf3_objects: Total expected rows (via COUNT): 0
+0001.550 (0) Table dmm_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.00 seconds
+0001.552 (0) Table dmm_nf3_objects: finishing file(s) (2, 0.4 KB)
+0001.554 (0) Table dmm_nf3_relationships: Total expected rows (via COUNT): 0
+0001.555 (0) Table dmm_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=763) in 0.00 seconds
+0001.557 (0) Table dmm_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0001.559 (0) Table dmm_nf3_upgrades: Total expected rows (via COUNT): 2
+0001.560 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.561 (0) Table dmm_nf3_upgrades: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=21026) in 0.00 seconds
+0001.563 (0) Table dmm_nf3_upgrades: finishing file(s) (2, 2.5 KB)
+0001.565 (0) Table dmm_sgs_log_events: Total expected rows (via COUNT): 17
+0001.565 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.567 (0) Table dmm_sgs_log_events: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=3921) in 0.00 seconds
+0001.569 (0) Table dmm_sgs_log_events: finishing file(s) (2, 1.1 KB)
+0001.571 (0) Table dmm_sgs_log_visitors: Total expected rows (via COUNT): 8
+0001.572 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.572 (0) Table dmm_sgs_log_visitors: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1036) in 0.00 seconds
+0001.574 (0) Table dmm_sgs_log_visitors: finishing file(s) (2, 0.5 KB)
+0001.576 (0) Table dmm_smush_dir_images: Total expected rows (via COUNT): 0
+0001.577 (0) Table dmm_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1099) in 0.00 seconds
+0001.579 (0) Table dmm_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0001.581 (0) Table dmm_statistics_exclusions: Total expected rows (via COUNT): 0
+0001.582 (0) Table dmm_statistics_exclusions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=627) in 0.00 seconds
+0001.583 (0) Table dmm_statistics_exclusions: finishing file(s) (2, 0.4 KB)
+0001.585 (0) Table dmm_statistics_historical: Total expected rows (via COUNT): 0
+0001.586 (0) Table dmm_statistics_historical: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.00 seconds
+0001.588 (0) Table dmm_statistics_historical: finishing file(s) (2, 0.4 KB)
+0001.589 (0) Table dmm_statistics_pages: Total expected rows (approximate): 38087
+0001.716 (0) Table dmm_statistics_pages: binary mysqldump finished (writes: 39, bytes 2393207, return code 0) in 0.13 seconds
+0001.718 (0) Table dmm_statistics_pages: finishing file(s) (1, 343.5 KB)
+0001.720 (0) Table dmm_statistics_search: Total expected rows (approximate): 46640
+0001.808 (0) Table dmm_statistics_search: binary mysqldump finished (writes: 37, bytes 2580260, return code 0) in 0.09 seconds
+0001.810 (0) Table dmm_statistics_search: finishing file(s) (1, 190.1 KB)
+0001.813 (0) Table dmm_statistics_useronline: Total expected rows (via COUNT): 1
+0001.813 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.814 (0) Table dmm_statistics_useronline: Rows added in this batch (next record: 242438): 1 (uncompressed bytes in this segment=1270) in 0.00 seconds
+0001.816 (0) Table dmm_statistics_useronline: finishing file(s) (2, 0.6 KB)
+0001.818 (0) Table dmm_statistics_visit: Total expected rows (approximate): 2422
+0001.839 (0) Table dmm_statistics_visit: Rows added in this batch (next record: 2422): 2422 (uncompressed bytes in this segment=122817) in 0.02 seconds
+0001.841 (0) Table dmm_statistics_visit: finishing file(s) (2, 30.4 KB)
+0001.843 (0) Table dmm_statistics_visitor: Total expected rows (approximate): 196083
+0001.844 (0) [Warning] Table dmm_statistics_visitor has very many rows (196083) - we hope your web hosting company gives you enough resources to dump out that table in the backup. If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0002.628 (0) Table dmm_statistics_visitor: binary mysqldump finished (writes: 64, bytes 21932689, return code 0) in 0.78 seconds
+0002.632 (0) Table dmm_statistics_visitor: finishing file(s) (1, 2746.2 KB)
+0002.636 (0) Table dmm_statistics_visitor_relationships: Total expected rows (via COUNT): 0
+0002.637 (0) Table dmm_statistics_visitor_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=704) in 0.00 seconds
+0002.639 (0) Table dmm_statistics_visitor_relationships: finishing file(s) (2, 0.4 KB)
+0002.643 (0) Table dmm_wpsr_caches: Total expected rows (via COUNT): 0
+0002.644 (0) Table dmm_wpsr_caches: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=776) in 0.00 seconds
+0002.647 (0) Table dmm_wpsr_caches: finishing file(s) (2, 0.4 KB)
+0002.652 (0) Table dmm_wpsr_reviews: Total expected rows (via COUNT): 0
+0002.652 (0) Table dmm_wpsr_reviews: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1391) in 0.00 seconds
+0002.655 (0) Table dmm_wpsr_reviews: finishing file(s) (2, 0.5 KB)
+0002.659 (0) Table dmm_yoast_indexable: Total expected rows (via COUNT): 82
+0002.660 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.665 (0) Table dmm_yoast_indexable: Rows added in this batch (next record: 82): 82 (uncompressed bytes in this segment=58955) in 0.01 seconds
+0002.668 (0) Table dmm_yoast_indexable: finishing file(s) (2, 8.5 KB)
+0002.671 (0) Table dmm_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0002.672 (0) Table dmm_yoast_indexable_hierarchy: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=780) in 0.00 seconds
+0002.674 (0) Table dmm_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0002.677 (0) Table dmm_yoast_migrations: Total expected rows (via COUNT): 18
+0002.677 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.679 (0) Table dmm_yoast_migrations: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1081) in 0.00 seconds
+0002.681 (0) Table dmm_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0002.684 (0) Table dmm_yoast_primary_term: Total expected rows (via COUNT): 0
+0002.685 (0) Table dmm_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=868) in 0.00 seconds
+0002.686 (0) Table dmm_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0002.689 (0) Table dmm_yoast_seo_links: Total expected rows (via COUNT): 0
+0002.690 (0) Table dmm_yoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1129) in 0.00 seconds
+0002.692 (0) Table dmm_yoast_seo_links: finishing file(s) (2, 0.4 KB)
+0002.694 (0) Table dmm_yoast_seo_meta: Total expected rows (via COUNT): 1
+0002.694 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.695 (0) Table dmm_yoast_seo_meta: Rows added in this batch (next record: 2174): 1 (uncompressed bytes in this segment=619) in 0.00 seconds
+0002.697 (0) Table dmm_yoast_seo_meta: finishing file(s) (2, 0.4 KB)
+0002.698 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_options.table.tmpr474381.gz (1/60/fopen): adding to final database dump
+0002.700 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_options.table.gz (2/60/fopen): adding to final database dump
+0002.701 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_users.table.tmpr2.gz (3/60/fopen): adding to final database dump
+0002.701 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_users.table.gz (4/60/fopen): adding to final database dump
+0002.701 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_usermeta.table.tmpr69.gz (5/60/fopen): adding to final database dump
+0002.702 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_usermeta.table.gz (6/60/fopen): adding to final database dump
+0002.702 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_actionscheduler_actions.table.tmpr120776.gz (7/60/fopen): adding to final database dump
+0002.703 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_actionscheduler_actions.table.gz (8/60/fopen): adding to final database dump
+0002.703 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_actionscheduler_claims.table.tmpr0.gz (9/60/fopen): adding to final database dump
+0002.703 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_actionscheduler_claims.table.gz (10/60/fopen): adding to final database dump
+0002.704 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_actionscheduler_groups.table.tmpr3.gz (11/60/fopen): adding to final database dump
+0002.704 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_actionscheduler_groups.table.gz (12/60/fopen): adding to final database dump
+0002.705 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_actionscheduler_logs.table.gz (13/60/fopen): adding to final database dump
+0002.726 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_commentmeta.table.tmpr0.gz (14/60/fopen): adding to final database dump
+0002.727 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_commentmeta.table.gz (15/60/fopen): adding to final database dump
+0002.728 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_comments.table.tmpr835.gz (16/60/fopen): adding to final database dump
+0002.728 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_comments.table.gz (17/60/fopen): adding to final database dump
+0002.729 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_links.table.tmpr8.gz (18/60/fopen): adding to final database dump
+0002.729 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_links.table.gz (19/60/fopen): adding to final database dump
+0002.730 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_postmeta.table.tmpr3390.gz (20/60/fopen): adding to final database dump
+0002.732 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_postmeta.table.gz (21/60/fopen): adding to final database dump
+0002.732 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_posts.table.tmpr2366.gz (22/60/fopen): adding to final database dump
+0002.736 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_posts.table.gz (23/60/fopen): adding to final database dump
+0002.736 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_term_relationships.table.tmpr100001.gz (24/60/fopen): adding to final database dump
+0002.737 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_term_relationships.table.gz (25/60/fopen): adding to final database dump
+0002.737 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_term_taxonomy.table.tmpr17.gz (26/60/fopen): adding to final database dump
+0002.738 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_term_taxonomy.table.gz (27/60/fopen): adding to final database dump
+0002.738 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_termmeta.table.tmpr0.gz (28/60/fopen): adding to final database dump
+0002.739 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_termmeta.table.gz (29/60/fopen): adding to final database dump
+0002.739 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_terms.table.tmpr17.gz (30/60/fopen): adding to final database dump
+0002.739 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_terms.table.gz (31/60/fopen): adding to final database dump
+0002.740 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_aioseo_cache.table.tmpr4795.gz (32/60/fopen): adding to final database dump
+0002.741 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_aioseo_cache.table.gz (33/60/fopen): adding to final database dump
+0002.741 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_aioseo_notifications.table.tmpr45.gz (34/60/fopen): adding to final database dump
+0002.743 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_aioseo_notifications.table.gz (35/60/fopen): adding to final database dump
+0002.744 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_aioseo_posts.table.tmpr299.gz (36/60/fopen): adding to final database dump
+0002.744 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_aioseo_posts.table.gz (37/60/fopen): adding to final database dump
+0002.745 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_icons.table.tmpr49.gz (38/60/fopen): adding to final database dump
+0002.745 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_icons.table.gz (39/60/fopen): adding to final database dump
+0002.746 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_maps.table.tmpr4.gz (40/60/fopen): adding to final database dump
+0002.746 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_maps.table.gz (41/60/fopen): adding to final database dump
+0002.747 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_marker_groups.table.tmpr0.gz (42/60/fopen): adding to final database dump
+0002.747 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_marker_groups.table.gz (43/60/fopen): adding to final database dump
+0002.748 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_marker_groups_relation.table.tmpr20.gz (44/60/fopen): adding to final database dump
+0002.748 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_marker_groups_relation.table.gz (45/60/fopen): adding to final database dump
+0002.748 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_markers.table.tmpr21.gz (46/60/fopen): adding to final database dump
+0002.749 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_markers.table.gz (47/60/fopen): adding to final database dump
+0002.749 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_membership_presets.table.tmpr3.gz (48/60/fopen): adding to final database dump
+0002.750 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_membership_presets.table.gz (49/60/fopen): adding to final database dump
+0002.750 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_modules.table.tmpr15.gz (50/60/fopen): adding to final database dump
+0002.751 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_modules.table.gz (51/60/fopen): adding to final database dump
+0002.751 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_modules_type.table.tmpr8.gz (52/60/fopen): adding to final database dump
+0002.752 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_modules_type.table.gz (53/60/fopen): adding to final database dump
+0002.752 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_options.table.tmpr3.gz (54/60/fopen): adding to final database dump
+0002.753 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_options.table.gz (55/60/fopen): adding to final database dump
+0002.753 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_options_categories.table.tmpr5.gz (56/60/fopen): adding to final database dump
+0002.753 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_options_categories.table.gz (57/60/fopen): adding to final database dump
+0002.754 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_usage_stat.table.tmpr10.gz (58/60/fopen): adding to final database dump
+0002.754 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_gmp_usage_stat.table.gz (59/60/fopen): adding to final database dump
+0002.755 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_action_meta.table.tmpr143.gz (60/60/fopen): adding to final database dump
+0002.755 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_action_meta.table.gz (61/60/fopen): adding to final database dump
+0002.755 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_actions.table.tmpr7.gz (62/60/fopen): adding to final database dump
+0002.756 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_actions.table.gz (63/60/fopen): adding to final database dump
+0002.756 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_chunks.table.tmpr0.gz (64/60/fopen): adding to final database dump
+0002.757 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_chunks.table.gz (65/60/fopen): adding to final database dump
+0002.757 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_field_meta.table.tmpr315.gz (66/60/fopen): adding to final database dump
+0002.757 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_field_meta.table.gz (67/60/fopen): adding to final database dump
+0002.758 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_fields.table.tmpr17.gz (68/60/fopen): adding to final database dump
+0002.758 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_fields.table.gz (69/60/fopen): adding to final database dump
+0002.759 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_form_meta.table.tmpr69.gz (70/60/fopen): adding to final database dump
+0002.759 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_form_meta.table.gz (71/60/fopen): adding to final database dump
+0002.760 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_forms.table.tmpr3.gz (72/60/fopen): adding to final database dump
+0002.760 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_forms.table.gz (73/60/fopen): adding to final database dump
+0002.761 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_object_meta.table.tmpr0.gz (74/60/fopen): adding to final database dump
+0002.761 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_object_meta.table.gz (75/60/fopen): adding to final database dump
+0002.761 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_objects.table.tmpr0.gz (76/60/fopen): adding to final database dump
+0002.762 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_objects.table.gz (77/60/fopen): adding to final database dump
+0002.762 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_relationships.table.tmpr0.gz (78/60/fopen): adding to final database dump
+0002.762 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_relationships.table.gz (79/60/fopen): adding to final database dump
+0002.763 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_upgrades.table.tmpr3.gz (80/60/fopen): adding to final database dump
+0002.763 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_nf3_upgrades.table.gz (81/60/fopen): adding to final database dump
+0002.764 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_sgs_log_events.table.tmpr18.gz (82/60/fopen): adding to final database dump
+0002.764 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_sgs_log_events.table.gz (83/60/fopen): adding to final database dump
+0002.764 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_sgs_log_visitors.table.tmpr9.gz (84/60/fopen): adding to final database dump
+0002.765 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_sgs_log_visitors.table.gz (85/60/fopen): adding to final database dump
+0002.765 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_smush_dir_images.table.tmpr0.gz (86/60/fopen): adding to final database dump
+0002.765 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_smush_dir_images.table.gz (87/60/fopen): adding to final database dump
+0002.766 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_statistics_exclusions.table.tmpr0.gz (88/60/fopen): adding to final database dump
+0002.766 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_statistics_exclusions.table.gz (89/60/fopen): adding to final database dump
+0002.767 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_statistics_historical.table.tmpr0.gz (90/60/fopen): adding to final database dump
+0002.767 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_statistics_historical.table.gz (91/60/fopen): adding to final database dump
+0002.767 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_statistics_pages.table.gz (92/60/fopen): adding to final database dump
+0002.774 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_statistics_search.table.gz (93/60/fopen): adding to final database dump
+0002.778 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_statistics_useronline.table.tmpr242439.gz (94/60/fopen): adding to final database dump
+0002.778 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_statistics_useronline.table.gz (95/60/fopen): adding to final database dump
+0002.779 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_statistics_visit.table.tmpr2423.gz (96/60/fopen): adding to final database dump
+0002.780 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_statistics_visit.table.gz (97/60/fopen): adding to final database dump
+0002.780 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_statistics_visitor.table.gz (98/60/fopen): adding to final database dump
+0002.831 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_statistics_visitor_relationships.table.tmpr0.gz (99/60/fopen): adding to final database dump
+0002.833 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_statistics_visitor_relationships.table.gz (100/60/fopen): adding to final database dump
+0002.833 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_wpsr_caches.table.tmpr0.gz (101/60/fopen): adding to final database dump
+0002.834 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_wpsr_caches.table.gz (102/60/fopen): adding to final database dump
+0002.834 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_wpsr_reviews.table.tmpr0.gz (103/60/fopen): adding to final database dump
+0002.835 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_wpsr_reviews.table.gz (104/60/fopen): adding to final database dump
+0002.835 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_yoast_indexable.table.tmpr83.gz (105/60/fopen): adding to final database dump
+0002.836 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_yoast_indexable.table.gz (106/60/fopen): adding to final database dump
+0002.836 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_yoast_indexable_hierarchy.table.tmpr1.gz (107/60/fopen): adding to final database dump
+0002.837 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_yoast_indexable_hierarchy.table.gz (108/60/fopen): adding to final database dump
+0002.837 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_yoast_migrations.table.tmpr19.gz (109/60/fopen): adding to final database dump
+0002.838 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_yoast_migrations.table.gz (110/60/fopen): adding to final database dump
+0002.838 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_yoast_primary_term.table.tmpr0.gz (111/60/fopen): adding to final database dump
+0002.839 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_yoast_primary_term.table.gz (112/60/fopen): adding to final database dump
+0002.839 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_yoast_seo_links.table.tmpr0.gz (113/60/fopen): adding to final database dump
+0002.839 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_yoast_seo_links.table.gz (114/60/fopen): adding to final database dump
+0002.840 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_yoast_seo_meta.table.tmpr2175.gz (115/60/fopen): adding to final database dump
+0002.840 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db-table-dmm_yoast_seo_meta.table.gz (116/60/fopen): adding to final database dump
+0002.845 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db.gz: finished writing out complete database file (5609.9 KB)
+0002.899 (0) Total database tables backed up: 60 (backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db.gz, size: 5744631, sha1: 9197778abf07368788726d3fbd345c4590aaac95, sha256: 1629e04b42b766779a2d881842e47ce5f75ed9b36591c32d7651bef11a2d1781)
+0002.902 (0) backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0002.903 (0) Saving backup history. Total backup size: 5.5 MB
+0002.904 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0002.905 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0002.906 (0) No remote despatch: user chose no remote backup service
+0002.906 (0) Recording as successfully uploaded: backup_2023-11-27-2337_Contractor_Transport_LLC_5648a927e26b-db.gz
+0002.907 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0002.908 (0) Resume backup (5648a927e26b, 0): finish run
+0002.908 (0) Decremented the semaphore (fd) by 1
+0002.909 (0) Semaphore (fd) unlocked
+0002.909 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0002.911 (0) No email will/can be sent - the user has not configured an email address.
+0002.911 (0) The backup succeeded and is now complete
